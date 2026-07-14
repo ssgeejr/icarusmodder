@@ -1,3 +1,20 @@
+# Project — local / extracted / backups (not source of truth)
+backup/
+Extracted Mods/
+Waste_Not/
+_tools/
+
+# Icarus mod binaries / author packages (never commit)
+*.pak
+*.PAK
+*.exmod
+*.EXMOD
+*.exmodz
+*.EXMODZ
+*.ezmod
+*.EZMOD
+*.bak
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
