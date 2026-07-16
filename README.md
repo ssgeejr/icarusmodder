@@ -30,8 +30,19 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Saddles & backpacks** | Deyvid | Balanced carry capacity on saddles/backpacks. |
 | **Wood fuel ×10** | Deyvid | Wood burns much longer as fuel. |
 | **No water-wheel junk** | laanp | Water wheels do not accumulate junk (`Waterwheel` inventory slot template). |
+| **Deep mining drills (tuned)** | QoL | See below — modest speed + lower biofuel burn on the biofuel deep drill only. |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
+
+### Deep mining (current values)
+
+| Setting | Biofuel deep drill | Electric deep drill | Notes |
+|---------|--------------------|---------------------|--------|
+| **Speed** `BaseDeepMiningDrillSpeed_+%` | **+50%** (~1.5× bare base) | **+83%** (~1.83× bare base) | Halved from an earlier too-hot +100% / +166% pass. Oil drill unchanged. |
+| **Fuel burn** `GenerationRatio` on row `Deep_Mining_Biofuel_Drill` | **0.375** (was 0.75) | N/A (electric) | **−50% biofuel use** while drilling only — **not** base power generators. |
+
+Intent: faster than vanilla so progress doesn’t take all day, without dumping thousands of ore per short session.
+
 
 ---
 
@@ -55,10 +66,11 @@ These **fought** when left as separate paks (whole-file override):
 | Pete blueprints / mesh / UI | Teleport | No (unique) |
 | `D_Itemable` | Stacks/weight + Pete items | Merged once |
 | `D_ProcessorRecipes` | Craft QoL + Pete recipe | Merged once |
-| `D_ItemsStatic` | Pete + shovel dig rewards | Merged once |
+| `D_ItemsStatic` | Pete + shovel dig + deep-drill speed % | Merged once |
+| `D_Generator` | Wood fuel ×10 + biofuel deep-drill burn only | Merged once (not power gens except wood trait rows) |
 | `D_ToolDamage` | 2× gather tools | Additive unique path |
 | `D_InventoryInfo` | Water-wheel junk | **No conflict** — QoL had no inventory table; pure add |
-| Armor / food / saddles / generator / voxel | Other QoL | Unique paths |
+| Armor / food / saddles / voxel | Other QoL | Unique paths |
 
 **laanp-NoWaterWheelJunk** vs existing grok content: **zero path overlap** before merge. Safe additive include.
 
@@ -72,9 +84,9 @@ These **fought** when left as separate paks (whole-file override):
 2. Put **only** `grok.qualityoflife_P.pak` in  
    `...\Icarus\Content\Paks\mods\`
 3. Remove old individual mod paks for the same features.
-4. Smoke test: **teleport → stacks → craft → gather → dig / water wheel**.
+4. Smoke test: **teleport → stacks → craft → gather → dig / water wheel → deep drill**.
 
-Backups: repo `backup/` (gitignored), including `qol_KNOWN_GOOD_latest.zip` after a clean session.
+Backups: repo `backup/` (gitignored), including `qol_KNOWN_GOOD_latest.zip` after a clean session (production restore pointer).
 
 ---
 
@@ -95,3 +107,5 @@ Mod binaries (`*.pak`, `*.exmod`, `*.exmodz`, …) are **not** committed.
 ## Version
 
 Tagged releases describe the workflow + docs state of this repo. The playable pak is built locally (or restored from `backup/`) and lives under the game `mods` folder.
+
+**Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
