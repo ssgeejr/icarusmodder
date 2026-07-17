@@ -101,7 +101,11 @@ Tools: UnrealPak under `_tools/UnrealPak` when present. Helpers: `exmod_to_pak.p
 - Inventory: higher stacks, lower weight
 - Crafting: reduced cost / faster processing where configured
 - Gathering: 2× tool efficiencies + felling damage (**not** `Melee_Damage` unless chosen)
-- Other folded QoL tables (armor, food, saddles, wood fuel, mining secondaries, etc.)
+- Shovel dig yield, waste-not mining secondaries, water-wheel no-junk
+- Deep mining: tuned biofuel/electric drill speed + lower biofuel deep-drill fuel burn only (not base power generators)
+- Other folded QoL tables (armor, food, saddles, wood fuel, etc.)
+
+**Numbers and full feature table live in [README.md](./README.md)** — keep that file current when balance changes. This file is process; README is loadout truth.
 
 Format never changes: **one pak, Pete-safe, evolved from live.**
 
@@ -128,8 +132,9 @@ Format never changes: **one pak, Pete-safe, evolved from live.**
 - [ ] Pete recipe + item + blueprints still present
 - [ ] Only one pak in `mods` for this loadout (`grok.qualityoflife_P.pak`)
 - [ ] User authorized install (if writing to game)
-- [ ] **Smoke:** teleport → stacks → craft → gather
+- [ ] **Smoke:** teleport → stacks → craft → gather → dig / water wheel / deep drill (as relevant)
 - [ ] On success: refresh **`backup/qol_KNOWN_GOOD_latest.zip`**
+- [ ] Update **README.md** if player-facing features/numbers changed; commit/tag when releasing
 
 ---
 

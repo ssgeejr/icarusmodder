@@ -106,6 +106,10 @@ Mod binaries (`*.pak`, `*.exmod`, `*.exmodz`, …) are **not** committed.
 
 ## Version
 
-Tagged releases describe the workflow + docs state of this repo. The playable pak is built locally (or restored from `backup/`) and lives under the game `mods` folder.
+See **[CHANGELOG.md](./CHANGELOG.md)** for release notes. Tags track repo + documented loadout state.
+
+The playable pak is **not** in git; it is built locally and lives under the game `mods` folder (restore from `backup/qol_KNOWN_GOOD_latest.zip` if needed).
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
+
+**Current documented loadout:** deep mining **+75% / +125%** speed, biofuel deep-drill fuel **−50%** (see feature table above).
