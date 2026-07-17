@@ -38,10 +38,10 @@ Optional text/script files from authors may sit inside the pak; the game loads t
 
 | Setting | Biofuel deep drill | Electric deep drill | Notes |
 |---------|--------------------|---------------------|--------|
-| **Speed** `BaseDeepMiningDrillSpeed_+%` | **+50%** (~1.5× bare base) | **+83%** (~1.83× bare base) | Halved from an earlier too-hot +100% / +166% pass. Oil drill unchanged. |
-| **Fuel burn** `GenerationRatio` on row `Deep_Mining_Biofuel_Drill` | **0.375** (was 0.75) | N/A (electric) | **−50% biofuel use** while drilling only — **not** base power generators. |
+| **Speed** `BaseDeepMiningDrillSpeed_+%` | **+75%** (~1.75× bare base) | **+125%** (~2.25× bare base) | Middle band after too-hot (+100/+166) and too-cold (+50/+83). Oil drill unchanged. |
+| **Fuel burn** `GenerationRatio` on row `Deep_Mining_Biofuel_Drill` | **0.375** (was 0.75) | N/A (electric) | **−50% biofuel use** while drilling only — **not** base power generators. Empty tanks OK; speed targets ore per run. |
 
-Intent: faster than vanilla so progress doesn’t take all day, without dumping thousands of ore per short session.
+Intent: enough ore per fuel/power cycle to progress without all-day waits or absurd stockpiles.
 
 
 ---
