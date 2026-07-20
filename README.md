@@ -30,18 +30,18 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Saddles & backpacks** | Deyvid | Balanced carry capacity on saddles/backpacks. |
 | **Wood fuel ×10** | Deyvid | Wood burns much longer as fuel. |
 | **No water-wheel junk** | laanp | Water wheels do not accumulate junk (`Waterwheel` inventory slot template). |
-| **Deep mining drills (tuned)** | QoL | See below — modest speed + lower biofuel burn on the biofuel deep drill only. |
+| **Deep mining drills** | QoL | **2× production vs vanilla** on biofuel + electric; fuel burn restored to vanilla on biofuel deep drill (see below). |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
-### Deep mining (current values)
+### Deep mining (current values — reset from vanilla originals)
 
 | Setting | Biofuel deep drill | Electric deep drill | Notes |
 |---------|--------------------|---------------------|--------|
-| **Speed** `BaseDeepMiningDrillSpeed_+%` | **+75%** (~1.75× bare base) | **+125%** (~2.25× bare base) | Middle band after too-hot (+100/+166) and too-cold (+50/+83). Oil drill unchanged. |
-| **Fuel burn** `GenerationRatio` on row `Deep_Mining_Biofuel_Drill` | **0.375** (was 0.75) | N/A (electric) | **−50% biofuel use** while drilling only — **not** base power generators. Empty tanks OK; speed targets ore per run. |
+| **Speed** `BaseDeepMiningDrillSpeed_+%` | **+100%** (~2× bare base; vanilla 0) | **+166%** (~2× original effective; vanilla +33%) | Set from **original** values only. Oil unchanged. |
+| **Fuel burn** `GenerationRatio` on row `Deep_Mining_Biofuel_Drill` | **0.75** (vanilla) | N/A (electric) | Prior ratio cuts (0.375 / 0.1875 trials) risked starving output — **restored to original**. Not power generators. |
 
-Intent: enough ore per fuel/power cycle to progress without all-day waits or absurd stockpiles.
+Intent: reliable **2× ore rate** vs stock drills. Fuel efficiency experiments deferred until production is proven good.
 
 
 ---
@@ -112,4 +112,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout:** deep mining **+75% / +125%** speed, biofuel deep-drill fuel **−50%** (see feature table above).
+**Current documented loadout:** deep mining **+100% / +166%** (2× original production), biofuel deep-drill fuel **vanilla 0.75**.

@@ -6,19 +6,30 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.3.0] — 2026-07-20
+
+### Loadout (prod pak) — deep mining recovery
+
+- Reset deep drill **speed from vanilla originals** only:
+  - Biofuel: **+100%** (2× bare production)
+  - Electric: **+166%** (2× original effective vs +33%)
+- Biofuel deep drill **`GenerationRatio` restored to vanilla 0.75** (undid 0.375 fuel cut that correlated with empty tanks / no ore)
+- Oil drill, power generators, wood-fuel rows, Pete: unchanged
+- LKG refreshed from this prod build
+
+### Docs
+
+- README deep-mining table matches recovery values
+- Note: fuel-efficiency experiments deferred until 2× ore is verified in-game
+
+---
+
 ## [1.2.0] — 2026-07-17
 
 ### Loadout (prod pak)
 
-- Deep mining **middle band**: biofuel **+75%** / electric **+125%** `BaseDeepMiningDrillSpeed_+%`
-- Biofuel deep drill fuel burn **−50%** (`GenerationRatio` 0.75 → 0.375); power generators unchanged
-- Prior extremes documented in README (too-hot +100/+166, too-cold +50/+83)
-
-### Docs / process
-
-- README: full feature table + deep-mining values + smoke includes deep drill
-- AGENTS: intent list points at README for numbers; smoke/checklist includes dig/wheel/drill
-- LKG: `backup/qol_KNOWN_GOOD_latest.zip` tracks verified prod
+- Deep mining experiments (middle band / fuel cuts) — **superseded by 1.3.0**
+- Docs process: README loadout, AGENTS → README for numbers, LKG pointer
 
 ---
 
