@@ -31,6 +31,8 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Wood fuel ×10** | Deyvid | Wood burns much longer as fuel. |
 | **No water-wheel junk** | laanp | Water wheels do not accumulate junk (`Waterwheel` inventory slot template). |
 | **Deep mining drills** | QoL | **2× production vs vanilla** on biofuel + electric; fuel burn restored to vanilla on biofuel deep drill (see below). |
+| **Always-on solar & wind** | Unlimited Energy–style | `AlwaysActive` on solar + wind energy rows so they keep producing without sun/wind gates (data approach). |
+| **Faster battery charge** | QoL | 2× `ResourceFlowRate` on basic + T4 battery racks (fill/throughput). |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
@@ -43,6 +45,16 @@ Optional text/script files from authors may sit inside the pak; the game loads t
 
 Intent: reliable **2× ore rate** vs stock drills. Fuel efficiency experiments deferred until production is proven good.
 
+### Power (current values)
+
+| Setting | Value | Notes |
+|---------|--------|--------|
+| **SolarPanel** `AlwaysActive` | **true** | Same idea as water wheels; from web “Unlimited Energy” EXMOD pattern |
+| **WindTurbine** `AlwaysActive` | **true** | Same |
+| **Battery** `ResourceFlowRate` | **3000** (was 1500) | 2× fill/throughput |
+| **Battery_T4** `ResourceFlowRate` | **20000** (was 10000) | 2× fill/throughput |
+
+Table: `data/Traits/D_Energy.json` (full current game table + these edits only).
 
 ---
 
@@ -70,6 +82,7 @@ These **fought** when left as separate paks (whole-file override):
 | `D_Generator` | Wood fuel ×10 + biofuel deep-drill burn only | Merged once (not power gens except wood trait rows) |
 | `D_ToolDamage` | 2× gather tools | Additive unique path |
 | `D_InventoryInfo` | Water-wheel junk | **No conflict** — QoL had no inventory table; pure add |
+| `D_Energy` | Always-on solar/wind + 2× batteries | **No conflict** — additive path |
 | Armor / food / saddles / voxel | Other QoL | Unique paths |
 
 **laanp-NoWaterWheelJunk** vs existing grok content: **zero path overlap** before merge. Safe additive include.
@@ -112,4 +125,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout:** deep mining **+100% / +166%** (2× original production), biofuel deep-drill fuel **vanilla 0.75**.
+**Current documented loadout:** deep mining **+100% / +166%**; biofuel deep-drill fuel **vanilla 0.75**; solar/wind **AlwaysActive**; batteries **2×** flow rate.

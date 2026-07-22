@@ -6,6 +6,22 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.4.0] — 2026-07-22
+
+### Loadout (prod pak) — power QoL
+
+- **`D_Energy.json`** added (current vanilla base + edits):
+  - **SolarPanel** + **WindTurbine**: `AlwaysActive: true` (Unlimited Energy–style; night/no-wind production intent)
+  - **Battery** flow **1500 → 3000**; **Battery_T4** **10000 → 20000** (2× charge/throughput)
+- Pete and prior QoL paths unchanged; still single pak (**46 files**)
+- LKG refreshed
+
+### Docs
+
+- README power section + feature rows; conflict table includes `D_Energy`
+
+---
+
 ## [1.3.0] — 2026-07-20
 
 ### Loadout (prod pak) — deep mining recovery
