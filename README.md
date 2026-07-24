@@ -33,6 +33,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Deep mining drills** | QoL | **2× production vs vanilla** on biofuel + electric; fuel burn restored to vanilla on biofuel deep drill (see below). |
 | **Always-on solar & wind** | Unlimited Energy–style | `AlwaysActive` on solar + wind energy rows so they keep producing without sun/wind gates (data approach). |
 | **Faster battery charge** | QoL | 2× `ResourceFlowRate` on basic + T4 battery racks (fill/throughput). |
+| **Olympus ores (Li / U / Ruby)** | olympus_ore_overhaul | Cave spawn weights + dense metal → uranium; see below. |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
@@ -55,6 +56,20 @@ Intent: reliable **2× ore rate** vs stock drills. Fuel efficiency experiments d
 | **Battery_T4** `ResourceFlowRate` | **20000** (was 10000) | 2× fill/throughput |
 
 Table: `data/Traits/D_Energy.json` (full current game table + these edits only).
+
+### Olympus cave ores (current values)
+
+From `examples/olympus_ore_overhaul` pattern, merged into live voxel tables:
+
+| Change | Detail |
+|--------|--------|
+| **Uranium** | `Metal_Dense` primary → **`Uranium_Raw`** (normal iron `Metal_Normal` unchanged). Waste Not secondary on dense metal kept as **`Meta_Resource`**. |
+| **Lithium** | `Lithium_Ore_Dense` weight **20** in Arctic / Desert / Conifer caves |
+| **Ruby** | `Ruby_Ore_Dense` weight **3** in **Arctic_Caves_1** only |
+| **Dense metal nodes** | Also weight **20** in those three cave tables (now mine as uranium) |
+
+Tables: `D_VoxelSetupData` (merged with Waste Not) + **`D_VoxelDistributionRegion`** (new path).  
+**Note:** dense-iron voxels become uranium **everywhere** that type is used, not only Olympus.
 
 ---
 
@@ -83,7 +98,9 @@ These **fought** when left as separate paks (whole-file override):
 | `D_ToolDamage` | 2× gather tools | Additive unique path |
 | `D_InventoryInfo` | Water-wheel junk | **No conflict** — QoL had no inventory table; pure add |
 | `D_Energy` | Always-on solar/wind + 2× batteries | **No conflict** — additive path |
-| Armor / food / saddles / voxel | Other QoL | Unique paths |
+| `D_VoxelSetupData` | Waste Not + uranium on `Metal_Dense` | Merged once |
+| `D_VoxelDistributionRegion` | Olympus Li / U / Ruby cave weights | Additive path |
+| Armor / food / saddles | Other QoL | Unique paths |
 
 **laanp-NoWaterWheelJunk** vs existing grok content: **zero path overlap** before merge. Safe additive include.
 
@@ -125,4 +142,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout:** deep mining **+100% / +166%**; biofuel deep-drill fuel **vanilla 0.75**; solar/wind **AlwaysActive**; batteries **2×** flow rate.
+**Current documented loadout:** deep mining **+100% / +166%**; biofuel deep-drill fuel **vanilla 0.75**; solar/wind **AlwaysActive**; batteries **2×** flow; Olympus caves **lithium + ruby + uranium** (dense metal).

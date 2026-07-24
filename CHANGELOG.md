@@ -6,6 +6,22 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.5.0] — 2026-07-24
+
+### Loadout — Olympus ores (Li / U / Ruby)
+
+- Merged `olympus_ore_overhaul` into single pak:
+  - **`Metal_Dense` → `Uranium_Raw`** (Waste Not exotic secondary kept)
+  - Cave weights: **Lithium_Ore_Dense** (Arctic/Desert/Conifer), **Ruby_Ore_Dense** (Arctic only), **Metal_Dense** spawn weight in those caves
+- New table path: **`D_VoxelDistributionRegion`**
+- Built pak ready under `backup/grok.qualityoflife_P.pak` (install when game unlocked)
+
+### Docs
+
+- README Olympus ore section
+
+---
+
 ## [1.4.0] — 2026-07-22
 
 ### Loadout (prod pak) — power QoL
@@ -13,7 +29,7 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 - **`D_Energy.json`** added (current vanilla base + edits):
   - **SolarPanel** + **WindTurbine**: `AlwaysActive: true` (Unlimited Energy–style; night/no-wind production intent)
   - **Battery** flow **1500 → 3000**; **Battery_T4** **10000 → 20000** (2× charge/throughput)
-- Pete and prior QoL paths unchanged; still single pak (**46 files**)
+- Pete and prior QoL paths unchanged
 - LKG refreshed
 
 ### Docs
