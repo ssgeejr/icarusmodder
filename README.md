@@ -34,6 +34,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Always-on solar & wind** | Unlimited Energy–style | `AlwaysActive` on solar + wind energy rows so they keep producing without sun/wind gates (data approach). |
 | **Faster battery charge** | QoL | 2× `ResourceFlowRate` on basic + T4 battery racks (fill/throughput). |
 | **Olympus ores (Li / U / Ruby)** | olympus_ore_overhaul | Cave spawn weights + dense metal → uranium; see below. |
+| **Composter biofuel turbo** | QoL | Shared Composter recipes: **~10× biofuel per craft**, materials quartered (min 1). Electric + basic metal composters. |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 

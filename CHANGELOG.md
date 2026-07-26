@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.6.0] — 2026-07-25
+
+### Loadout — composter biofuel turbo
+
+- All **Composter** set biofuel recipes (`Biofuel1`–`10`, `Seed_Biofuel`):
+  - **Biofuel output ×10** (`ResourceOutputs.RequiredUnits`)
+  - **Input counts ÷4** (minimum 1) — stacks with prior craft-cost reductions
+- Affects electric + standard metal composters (same recipe set); wood compost fertilizer recipes untouched
+- Pete recipe preserved
+
+---
+
 ## [1.5.0] — 2026-07-24
 
 ### Loadout — Olympus ores (Li / U / Ruby)
