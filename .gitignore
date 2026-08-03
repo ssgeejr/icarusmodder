@@ -4,6 +4,7 @@ Extracted Mods/
 Waste_Not/
 _tools/
 paks/
+examples/
 
 # Icarus mod binaries / author packages (never commit)
 *.pak

@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.7.0] — 2026-07-25
+
+### Checkpoint
+
+- Tag current documented loadout line (through compost turbo **v1.6.0** / Olympus ores **v1.5.0** / power **v1.4.0** / drill recovery **v1.3.0**)
+- `.gitignore`: ignore `examples/`
+- **Known follow-up (not in this tag):** rebuild full shared tables from current `data.pak` so **Single Barrel Launcher** (`Item_Launcher_T2` / `T2_Launcher`) appears; stale full tables still omit new monthly rows
+
+---
+
 ## [1.6.0] — 2026-07-25
 
 ### Loadout — composter biofuel turbo
