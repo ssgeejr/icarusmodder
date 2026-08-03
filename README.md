@@ -143,4 +143,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout:** deep mining **+100% / +166%**; biofuel deep-drill fuel **vanilla 0.75**; solar/wind **AlwaysActive**; batteries **2×** flow; Olympus caves **lithium + ruby + uranium** (dense metal).
+**Current documented loadout (v1.8.0):** tables rebuilt from **current game `data.pak`** so **Single Barrel Launcher** (`Item_Launcher_T2`) is present; deep mining **+100% / +166%**; biofuel deep-drill fuel **vanilla**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; Pete; stacks/weight/craft QoL.

@@ -6,13 +6,25 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.8.0] — 2026-08-03
+
+### Full table rebuild from current `data.pak`
+
+- Rebuilt shared full tables from **live game `data.pak`**, then re-applied QoL layers
+- **Single Barrel Launcher** present: `Item_Launcher_T2` + `T2_Launcher` recipe (tech tree icons)
+- Pete teleport recipe/item/assets preserved
+- Re-applied: stacks/weight, craft ~50% cost/speed, compost turbo ×10, tool 2×, dig 2×, drills +100/+166, solar/wind AlwaysActive, batteries 2×, wood fuel, armour 2×, food/saddles overlays, waterwheel, Waste Not + Olympus ores
+- LKG refreshed
+
+---
+
 ## [1.7.0] — 2026-07-25
 
 ### Checkpoint
 
 - Tag current documented loadout line (through compost turbo **v1.6.0** / Olympus ores **v1.5.0** / power **v1.4.0** / drill recovery **v1.3.0**)
 - `.gitignore`: ignore `examples/`
-- **Known follow-up (not in this tag):** rebuild full shared tables from current `data.pak` so **Single Barrel Launcher** (`Item_Launcher_T2` / `T2_Launcher`) appears; stale full tables still omit new monthly rows
+- **Known follow-up (done in 1.8.0):** rebuild full shared tables from current `data.pak` for **Single Barrel Launcher**
 
 ---
 
