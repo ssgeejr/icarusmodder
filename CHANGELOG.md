@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.9.0] — 2026-08-09
+
+### Loadout — small pouches 2× slots
+
+- `D_InventoryInfo` **`Pouch_Generic`**: `StartingSlots` **6 → 12**
+- Applies to **Small Pouch** and **Small Red / Green / Blue** (shared inventory row)
+- Itemable descriptions updated to say “12 slot”
+- Waterwheel inventory edit preserved; Pete verified; LKG refreshed
+
+---
+
 ## [1.8.0] — 2026-08-03
 
 ### Full table rebuild from current `data.pak`

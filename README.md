@@ -35,6 +35,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Faster battery charge** | QoL | 2× `ResourceFlowRate` on basic + T4 battery racks (fill/throughput). |
 | **Olympus ores (Li / U / Ruby)** | olympus_ore_overhaul | Cave spawn weights + dense metal → uranium; see below. |
 | **Composter biofuel turbo** | QoL | Shared Composter recipes: **~10× biofuel per craft**, materials quartered (min 1). Electric + basic metal composters. |
+| **Small pouches 12 slots** | QoL | Small + Small Red/Green/Blue pouches: **6 → 12** slots (shared `Pouch_Generic` inventory). |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
@@ -143,4 +144,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.8.0):** tables rebuilt from **current game `data.pak`** so **Single Barrel Launcher** (`Item_Launcher_T2`) is present; deep mining **+100% / +166%**; biofuel deep-drill fuel **vanilla**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; Pete; stacks/weight/craft QoL.
+**Current documented loadout (v1.9.0):** Single Barrel Launcher present; deep mining **+100% / +166%**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; **small pouches 12 slots**; Pete; stacks/weight/craft QoL.
