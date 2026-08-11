@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.10.0] — 2026-08-09
+
+### Loadout — faster hold / pickup
+
+- Added \data/Stats/D_CharacterStartingStats.json\ from current game data
+- **BaseActionHoldTime_+% = -50** on Base_Stats (shorter hold-to-interact / pickup)
+- Pete and prior QoL preserved; LKG refreshed
+
+---
+
 ## [1.9.0] — 2026-08-09
 
 ### Loadout — small pouches 2× slots
