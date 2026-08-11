@@ -6,13 +6,22 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.11.0] — 2026-08-09
+
+### Loadout — revert action hold time
+
+- Removed `D_CharacterStartingStats.json` (undo **BaseActionHoldTime −50%**)
+- That change sped **repair** holds, **not** world pickup
+- All other QoL unchanged; LKG refreshed
+
+---
+
 ## [1.10.0] — 2026-08-09
 
-### Loadout — faster hold / pickup
+### Loadout — faster hold / pickup (reverted in 1.11.0)
 
-- Added \data/Stats/D_CharacterStartingStats.json\ from current game data
-- **BaseActionHoldTime_+% = -50** on Base_Stats (shorter hold-to-interact / pickup)
-- Pete and prior QoL preserved; LKG refreshed
+- Added `D_CharacterStartingStats.json` with **BaseActionHoldTime_+% = -50**
+- Observed: repair holds faster; world pickup unchanged → **rolled back**
 
 ---
 
