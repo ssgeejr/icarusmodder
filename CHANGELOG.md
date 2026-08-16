@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.15.0] — 2026-08-16
+
+### Loadout — Super Cooled Ice turbo (sub-second cycle)
+
+- `Super_Cooled_Ice` + `Frozen_Wood` `MiningTimeSeconds`: **1 → 0.1** (~**300×** vs vanilla 30s; ~**600/min** if one unit per cycle)
+- Still uses deposit cycle (not drill speed %); Pete-safe full `D_OreDeposit` table
+- LKG refreshed after install
+
+---
+
 ## [1.14.0] — 2026-08-16
 
 ### Loadout — Super Cooled Ice actually faster (real lever)

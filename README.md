@@ -45,7 +45,7 @@ Optional text/script files from authors may sit inside the pak; the game loads t
 | Setting | Biofuel deep drill | Ice borer / Super Cooled Ice | Electric deep drill | Notes |
 |---------|--------------------|------------------------------|---------------------|--------|
 | **Speed** `BaseDeepMiningDrillSpeed_+%` | **+100%** (~2× bare base) | *(does not drive ice rate — BP ignores it)* | **+166%** | Oil unchanged. |
-| **Deposit cycle** `D_OreDeposit.MiningTimeSeconds` | n/a (ore veins) | **Super_Cooled_Ice + Frozen_Wood: 30 → 1** (~**30×** rate, ~2/min → ~60/min) | n/a | Real ice-borer yield lever. |
+| **Deposit cycle** `D_OreDeposit.MiningTimeSeconds` | n/a (ore veins) | **Super_Cooled_Ice + Frozen_Wood: 30 → 0.1** (~**300×**, ~2/min → ~**600/min**) | n/a | Real ice-borer yield lever. |
 | **Fuel burn** `GenerationRatio` `Deep_Mining_Biofuel_Drill` | **0.75** (vanilla) | **shared** same generator | N/A | Leave vanilla. |
 
 Intent: ore drills ~2×; **ice actually farmable** via deposit time (not the useless drill-speed stat on the ice borer).
@@ -147,4 +147,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.14.0):** Super Cooled Ice / Frozen Wood deposit cycle **30s → 1s** (~30× ice borer rate); deep ore drills biofuel/electric **+100% / +166%**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; queen bee ×100; Pete; stacks/weight/craft.
+**Current documented loadout (v1.15.0):** Super Cooled Ice / Frozen Wood **30s → 0.1s** (~300× ice borer, ~600/min); deep ore drills biofuel/electric **+100% / +166%**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; queen bee ×100; Pete; stacks/weight/craft.
