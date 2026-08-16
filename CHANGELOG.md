@@ -6,6 +6,33 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.13.0] — 2026-08-16
+
+### Loadout — ice borer matches biofuel deep drill speed
+
+- `Ice_Borer`: `BaseDeepMiningDrillSpeed_+%` **+100** (same 2× as biofuel deep drill)
+- Fuel already shared via generator row `Deep_Mining_Biofuel_Drill` (`GenerationRatio` 0.75 vanilla) — no separate fuel change
+- Rebuild script updated so future post-patch rebuilds keep ice borer parity
+- LKG refreshed after install
+
+---
+
+## [1.12.0] — 2026-08-15
+
+### Loadout — post-patch schema rebuild
+
+- Game **data.pak** rebuilt after Thursday patch (build `24684690`, ~2026-08-13 evening)
+- Full-table QoL tables rebased on post-patch vanilla (not pre-patch live)
+- Fixes broken fishing kit icons / missing poles from rod renames:
+  - `Item_Carbon_Rod` → **`Item_Carbon_Fishing_Rod`** (with icon)
+  - `Item_RadBoss_Rod` → **`Item_RadBoss_Fishing_Rod`**
+  - meshes `Mesh_Carbon_Fishing_Rod`, `Mesh_Radboss_Fishing_Rod`
+  - recipe + items static **`Carbon_Fishing_Rod`**
+- Also picks up other patch rows that stale tables dropped (roast foods, fertility serum, etc.)
+- Re-applied: Pete, stacks/weight, craft 50%, gather 2×, dig 2×, drills 2×, energy, voxels, pouches 12, queen bee ×100, armor/food/saddles overlays
+
+---
+
 ## [1.11.0] — 2026-08-09
 
 ### Loadout — revert action hold time

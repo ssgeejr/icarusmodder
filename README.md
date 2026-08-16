@@ -30,23 +30,24 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Saddles & backpacks** | Deyvid | Balanced carry capacity on saddles/backpacks. |
 | **Wood fuel ×10** | Deyvid | Wood burns much longer as fuel. |
 | **No water-wheel junk** | laanp | Water wheels do not accumulate junk (`Waterwheel` inventory slot template). |
-| **Deep mining drills** | QoL | **2× production vs vanilla** on biofuel + electric; fuel burn restored to vanilla on biofuel deep drill (see below). |
+| **Deep mining drills** | QoL | **2× production vs vanilla** on biofuel + electric + **ice borer**; fuel burn restored to vanilla on shared biofuel deep-drill generator (see below). |
 | **Always-on solar & wind** | Unlimited Energy–style | `AlwaysActive` on solar + wind energy rows so they keep producing without sun/wind gates (data approach). |
 | **Faster battery charge** | QoL | 2× `ResourceFlowRate` on basic + T4 battery racks (fill/throughput). |
 | **Olympus ores (Li / U / Ruby)** | olympus_ore_overhaul | Cave spawn weights + dense metal → uranium; see below. |
 | **Composter biofuel turbo** | QoL | Shared Composter recipes: **~10× biofuel per craft**, materials quartered (min 1). Electric + basic metal composters. |
 | **Small pouches 12 slots** | QoL | Small + Small Red/Green/Blue pouches: **6 → 12** slots (shared `Pouch_Generic` inventory). |
+| **Queen bee lifespan ×100** | QoL | Beehive queen fuel lasts ~100× longer (`UnitsProvided` 360k → 36M) — ~99% less degrade. Workers unchanged. |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
 ### Deep mining (current values — reset from vanilla originals)
 
-| Setting | Biofuel deep drill | Electric deep drill | Notes |
-|---------|--------------------|---------------------|--------|
-| **Speed** `BaseDeepMiningDrillSpeed_+%` | **+100%** (~2× bare base; vanilla 0) | **+166%** (~2× original effective; vanilla +33%) | Set from **original** values only. Oil unchanged. |
-| **Fuel burn** `GenerationRatio` on row `Deep_Mining_Biofuel_Drill` | **0.75** (vanilla) | N/A (electric) | Prior ratio cuts (0.375 / 0.1875 trials) risked starving output — **restored to original**. Not power generators. |
+| Setting | Biofuel deep drill | Ice borer | Electric deep drill | Notes |
+|---------|--------------------|-----------|---------------------|--------|
+| **Speed** `BaseDeepMiningDrillSpeed_+%` | **+100%** (~2× bare base; vanilla 0) | **+100%** (same as biofuel) | **+166%** (~2× original effective; vanilla +33%) | Oil unchanged. |
+| **Fuel burn** `GenerationRatio` on row `Deep_Mining_Biofuel_Drill` | **0.75** (vanilla) | **shared** same generator | N/A (electric) | Ice borer reuses biofuel drill generator. Prior ratio cuts risked starving output — left vanilla. |
 
-Intent: reliable **2× ore rate** vs stock drills. Fuel efficiency experiments deferred until production is proven good.
+Intent: reliable **2×** rate vs stock deep drills / ice borer. Fuel efficiency experiments deferred.
 
 ### Power (current values)
 
@@ -102,6 +103,7 @@ These **fought** when left as separate paks (whole-file override):
 | `D_Energy` | Always-on solar/wind + 2× batteries | **No conflict** — additive path |
 | `D_VoxelSetupData` | Waste Not + uranium on `Metal_Dense` | Merged once |
 | `D_VoxelDistributionRegion` | Olympus Li / U / Ruby cave weights | Additive path |
+| `D_Transmutable` | Queen bee fuel units ×100 | Additive path (full table + Queen_Bee edit) |
 | Armor / food / saddles | Other QoL | Unique paths |
 
 **laanp-NoWaterWheelJunk** vs existing grok content: **zero path overlap** before merge. Safe additive include.
@@ -144,4 +146,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.11.0):** Single Barrel Launcher present; deep mining **+100% / +166%**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; **small pouches 12 slots**; Pete; stacks/weight/craft QoL. (**Action hold −50% reverted** — only sped repair, not world pickup.)
+**Current documented loadout (v1.13.0):** Post-patch schema (v1.12) + **ice borer +100%** deep-mining speed (matches biofuel drill; shared biofuel fuel row); electric **+166%**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; **small pouches 12**; **queen bee ×100**; Pete; stacks/weight/craft QoL.
