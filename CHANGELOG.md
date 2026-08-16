@@ -6,14 +6,25 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.14.0] — 2026-08-16
+
+### Loadout — Super Cooled Ice actually faster (real lever)
+
+- **v1.13 failed:** `BaseDeepMiningDrillSpeed_+%` on `Ice_Borer` does **not** change ice yield (still ~2.1/min)
+- Real control is `D_OreDeposit` **`MiningTimeSeconds`**:
+  - `Super_Cooled_Ice`: **30 → 1** (~30×, ~2/min → ~60/min)
+  - `Frozen_Wood`: **30 → 1** (same borer path)
+- Full `D_OreDeposit` table added to the pak (only those two rows edited)
+- Ice borer still keeps +100 speed stat (harmless); fuel generator unchanged
+
+---
+
 ## [1.13.0] — 2026-08-16
 
-### Loadout — ice borer matches biofuel deep drill speed
+### Loadout — ice borer drill-speed attempt (ineffective)
 
-- `Ice_Borer`: `BaseDeepMiningDrillSpeed_+%` **+100** (same 2× as biofuel deep drill)
-- Fuel already shared via generator row `Deep_Mining_Biofuel_Drill` (`GenerationRatio` 0.75 vanilla) — no separate fuel change
-- Rebuild script updated so future post-patch rebuilds keep ice borer parity
-- LKG refreshed after install
+- `Ice_Borer`: `BaseDeepMiningDrillSpeed_+%` **+100** — **did not** raise Super Cooled Ice/min
+- Superseded by **v1.14.0** deposit cycle fix
 
 ---
 
