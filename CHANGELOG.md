@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.16.0] — 2026-08-17
+
+### Loadout — stasis bag no hotbar lock
+
+- Removed `Traits.Equippable.FocusLock` from **10 full stasis bag** items (body-in-bag variants only)
+- Allows hotbar **1–0** (e.g. Pete teleporter) while carrying a full stasis bag on **G**
+- Animal carcass FocusLock **unchanged**
+- LKG refreshed after install
+
+---
+
 ## [1.15.0] — 2026-08-16
 
 ### Loadout — Super Cooled Ice turbo (sub-second cycle)

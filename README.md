@@ -37,6 +37,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Composter biofuel turbo** | QoL | Shared Composter recipes: **~10× biofuel per craft**, materials quartered (min 1). Electric + basic metal composters. |
 | **Small pouches 12 slots** | QoL | Small + Small Red/Green/Blue pouches: **6 → 12** slots (shared `Pouch_Generic` inventory). |
 | **Queen bee lifespan ×100** | QoL | Beehive queen fuel lasts ~100× longer (`UnitsProvided` 360k → 36M) — ~99% less degrade. Workers unchanged. |
+| **Stasis bag hotbar unlock** | QoL | Full stasis bags (body in bag): remove `Traits.Equippable.FocusLock` so hotbar **1–0** (Pete) works while carrying. Carcasses unchanged. |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
@@ -147,4 +148,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.15.0):** Super Cooled Ice / Frozen Wood **30s → 0.1s** (~300× ice borer, ~600/min); deep ore drills biofuel/electric **+100% / +166%**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; queen bee ×100; Pete; stacks/weight/craft.
+**Current documented loadout (v1.16.0):** Full stasis bags no longer focus-lock hotbar (Pete while carrying); Super Cooled Ice **0.1s** cycle; deep drills **+100% / +166%**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; queen bee ×100; Pete; stacks/weight/craft.
