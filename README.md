@@ -32,6 +32,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **No water-wheel junk** | laanp | Water wheels do not accumulate junk (`Waterwheel` inventory slot template). |
 | **Deep mining drills** | QoL | **2× production** on biofuel + electric drills; **ice borer** fixed via deposit cycle (see below). Fuel on shared biofuel generator stays vanilla. |
 | **Always-on solar & wind** | Unlimited Energy–style | `AlwaysActive` on solar + wind energy rows so they keep producing without sun/wind gates (data approach). |
+| **Wind turbine no damage** | QoL | `Wind_Turbine` `IsInvulnerable_?` so storm/overclock wear (and other damage) can’t cut output — with AlwaysActive = uninterrupted wind power. |
 | **Faster battery charge** | QoL | 2× `ResourceFlowRate` on basic + T4 battery racks (fill/throughput). |
 | **Olympus ores (Li / U / Ruby)** | olympus_ore_overhaul | Cave spawn weights + dense metal → uranium; see below. |
 | **Composter biofuel turbo** | QoL | Shared Composter recipes: **~10× biofuel per craft**, materials quartered (min 1). Electric + basic metal composters. |
@@ -57,6 +58,7 @@ Intent: ore drills ~2×; **ice actually farmable** via deposit time (not the use
 |---------|--------|--------|
 | **SolarPanel** `AlwaysActive` | **true** | Same idea as water wheels; from web “Unlimited Energy” EXMOD pattern |
 | **WindTurbine** `AlwaysActive` | **true** | Same |
+| **Wind_Turbine** `IsInvulnerable_?` | **1** | No durability loss from storms/overproduction (or other damage); keeps full output |
 | **Battery** `ResourceFlowRate` | **3000** (was 1500) | 2× fill/throughput |
 | **Battery_T4** `ResourceFlowRate` | **20000** (was 10000) | 2× fill/throughput |
 
@@ -148,4 +150,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.16.0):** Full stasis bags no longer focus-lock hotbar (Pete while carrying); Super Cooled Ice **0.1s** cycle; deep drills **+100% / +166%**; solar/wind **AlwaysActive**; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; queen bee ×100; Pete; stacks/weight/craft.
+**Current documented loadout (v1.17.0):** Wind turbines **AlwaysActive + invulnerable** (uninterrupted power); stasis bags no hotbar lock; Super Cooled Ice **0.1s**; deep drills **+100% / +166%**; solar AlwaysActive; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; queen bee ×100; Pete; stacks/weight/craft.

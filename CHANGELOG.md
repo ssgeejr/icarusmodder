@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.17.0] — 2026-08-18
+
+### Loadout — uninterrupted wind power
+
+- `Wind_Turbine`: `IsInvulnerable_? = 1` (no storm/overproduction durability loss)
+- Keeps existing `WindTurbine` `AlwaysActive` (already in pack)
+- Together: continuous wind power without babysitting repairs
+- LKG refreshed after install
+
+---
+
 ## [1.16.0] — 2026-08-17
 
 ### Loadout — stasis bag no hotbar lock
