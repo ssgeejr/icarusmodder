@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.19.0] — 2026-08-30
+
+### Loadout — post Week 247 schema rebuild (Slinker)
+
+- Rebased on game build **24941209** / `data.pak` **Aug 30** (Week **247** Slinker saddles era)
+- Closes gaps from Week 247: `Item_Carcass_Tropical_Bird`, `Item_Tropical_Bird_Head`, `Mesh_Carcass_Tropical_Bird`
+- Re-applied full QoL stack (Pete, stacks/weight, craft, drills, ice 0.1s, wind AlwaysActive+invuln, stasis unlock, queen ×100, pouches, voxels, compost, etc.)
+- AgentKush EXMOD candidates reviewed and **rejected** (NVG / Survival Attachments / Solar Workshop) under no-risk policy — not merged
+- Zero missing rows on shared full tables after rebuild; LKG refreshed
+
+---
+
 ## [1.18.0] — 2026-08-30
 
 ### Loadout — post Week 246 schema rebuild
