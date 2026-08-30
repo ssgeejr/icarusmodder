@@ -6,6 +6,19 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.18.0] — 2026-08-30
+
+### Loadout — post Week 246 schema rebuild
+
+- Game `data.pak` refreshed (**Aug 21** / Week **246** Metal Weapon Rack era; build beyond our Aug 15 extract)
+- Full-table QoL rebased on latest vanilla so shared overrides no longer hide new rows
+- Newly present (examples): **`Weapon_Rack_T3` / `T3_Weapon_Rack_Single`**, `AnimalCarcass_Orka_Mount`, jungle/centipede/slinker carcass itemables+meshes, Kiwi bait/itemable rows
+- Re-applied: Pete, stacks/weight, craft 50%, gather 2×, dig 2×, drills, ice 0.1s, wind AlwaysActive+invuln, stasis FocusLock strip, queen ×100, pouches 12, voxels, compost, armor/food/saddles overlays
+- Zero missing-from-mod rows on recipes / ItemsStatic / ItemTemplate / Itemable / Meshable after rebuild
+- LKG refreshed
+
+---
+
 ## [1.17.0] — 2026-08-18
 
 ### Loadout — uninterrupted wind power
