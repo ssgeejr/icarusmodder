@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.20.0] — 2026-08-31
+
+### Loadout — immortal queens and workers
+
+- `D_Transmutable` **Queen_Bee**: `UnitsProvided` **3,600,000,000** (×10,000 vanilla / ×100 prior QoL)
+- `D_Transmutable` **Bee** (workers): `UnitsProvided` **1,800,000,000** (×10,000 vanilla)
+- Practical immortality for hive fuel/breeding life; breed *rate* unchanged (still BP 0.05/min)
+- LKG refreshed
+
+---
+
 ## [1.19.0] — 2026-08-30
 
 ### Loadout — post Week 247 schema rebuild (Slinker)
