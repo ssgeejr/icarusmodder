@@ -72,7 +72,7 @@ From `examples/olympus_ore_overhaul` pattern, merged into live voxel tables:
 |--------|--------|
 | **Uranium** | `Metal_Dense` primary → **`Uranium_Raw`** (normal iron `Metal_Normal` unchanged). Waste Not secondary on dense metal kept as **`Meta_Resource`**. |
 | **Lithium** | `Lithium_Ore_Dense` weight **20** in Arctic / Desert / Conifer caves |
-| **Ruby** | `Ruby_Ore_Dense` weight **3** in **Arctic_Caves_1** only |
+| **Ruby** | `Ruby_Ore_Dense` weight **3** in Arctic / Desert / Conifer caves |
 | **Dense metal nodes** | Also weight **20** in those three cave tables (now mine as uranium) |
 
 Tables: `D_VoxelSetupData` (merged with Waste Not) + **`D_VoxelDistributionRegion`** (new path).  
