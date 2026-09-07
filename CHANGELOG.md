@@ -6,6 +6,32 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.21.1] — 2026-09-04
+
+### Loadout — ruby parity with uranium
+
+- `Ruby_Ore_Dense` weight now **equals `Metal_Dense`** in every distribution region that spawns uranium dense nodes (11 regions): Olympus Arctic/Desert/Conifer **20**, plus Prometheus cave clusters and Elysium Tundra Gorge
+- Olympus Arctic ruby **3 → 20**; Desert/Conifer gained ruby **20** (were missing)
+- Intent: stop buying rubies from orbit — same rarity footprint as uranium nodes
+- Existing worlds may need Deep Cycler / new cave voxels to see new ruby pockets
+
+---
+
+## [1.21.0] — 2026-09-04
+
+### Loadout — post Week 248 schema rebuild
+
+- Rebased on game `data.pak` **Sep 3** (Week **248** / Scoria deep veins + new creatures era; Steam buildid **25030066**)
+- Closes gaps from Week 248 shared tables:
+  - `Item_Carcass_Axolotl`, `Item_Carcass_Crawler`, `Item_Carcass_Giant_Beetle`, `Item_Carcass_Plant_Minion_Elite`, `Item_Giant_Beetle_Head`
+  - `Mesh_Carcass_Axolotl`, `Mesh_Carcass_Crawler`, `Mesh_Carcass_Giant_Beetle`, `Mesh_Carcass_Plant_Minion_Elite`
+- Vanilla also dropped `Tropical_Bird` AI row; QoL no longer needs those carcass extras from Week 247
+- Re-applied full QoL stack (Pete, stacks/weight, craft 50%, drills, ice 0.1s, wind AlwaysActive+invuln, stasis unlock, bees ×10,000, pouches, voxels, compost, etc.)
+- Scoria deep-vein deposits remain vanilla cycle (**40s** `MiningTimeSeconds`) — no Ice_Borer-style override
+- Zero missing rows on shared full tables after rebuild; LKG pending in-game smoke
+
+---
+
 ## [1.20.0] — 2026-08-31
 
 ### Loadout — immortal queens and workers

@@ -72,8 +72,8 @@ From `examples/olympus_ore_overhaul` pattern, merged into live voxel tables:
 |--------|--------|
 | **Uranium** | `Metal_Dense` primary → **`Uranium_Raw`** (normal iron `Metal_Normal` unchanged). Waste Not secondary on dense metal kept as **`Meta_Resource`**. |
 | **Lithium** | `Lithium_Ore_Dense` weight **20** in Arctic / Desert / Conifer caves |
-| **Ruby** | `Ruby_Ore_Dense` weight **3** in Arctic / Desert / Conifer caves |
-| **Dense metal nodes** | Also weight **20** in those three cave tables (now mine as uranium) |
+| **Ruby** | `Ruby_Ore_Dense` weight **matches `Metal_Dense`** in every region that has uranium dense nodes (Olympus caves **20**, plus Prometheus / Elysium gorge tables) |
+| **Dense metal nodes** | Also weight **20** in those three Olympus cave tables (now mine as uranium) |
 
 Tables: `D_VoxelSetupData` (merged with Waste Not) + **`D_VoxelDistributionRegion`** (new path).  
 **Note:** dense-iron voxels become uranium **everywhere** that type is used, not only Olympus.
@@ -107,7 +107,7 @@ These **fought** when left as separate paks (whole-file override):
 | `D_Energy` | Always-on solar/wind + 2× batteries | **No conflict** — additive path |
 | `D_VoxelSetupData` | Waste Not + uranium on `Metal_Dense` | Merged once |
 | `D_VoxelDistributionRegion` | Olympus Li / U / Ruby cave weights | Additive path |
-| `D_Transmutable` | Queen bee fuel units ×100 | Additive path (full table + Queen_Bee edit) |
+| `D_Transmutable` | Queen + worker bee fuel units ×10,000 | Additive path (full table + Queen_Bee / Bee edits) |
 | Armor / food / saddles | Other QoL | Unique paths |
 
 **laanp-NoWaterWheelJunk** vs existing grok content: **zero path overlap** before merge. Safe additive include.
@@ -150,4 +150,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.20.0):** Queen + worker bees **effectively immortal** (×10,000 fuel units); Week **247** schema; wind **AlwaysActive + invulnerable**; stasis bags no hotbar lock; Super Cooled Ice **0.1s**; deep drills **+100% / +166%**; solar AlwaysActive; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; Pete; stacks/weight/craft. No extra EXMODs.
+**Current documented loadout (v1.21.1):** Queen + worker bees **effectively immortal** (×10,000 fuel units); Week **248** schema; **ruby = uranium parity** (same cave regions/weights as `Metal_Dense`); wind **AlwaysActive + invulnerable**; stasis bags no hotbar lock; Super Cooled Ice **0.1s**; deep drills **+100% / +166%**; solar AlwaysActive; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; Pete; stacks/weight/craft. No extra EXMODs.

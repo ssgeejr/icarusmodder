@@ -99,6 +99,6 @@ Pete **teleport remote** is a separate item (`Item_Petes_BeaconTeleportRemote`).
 - Hash compare to `D:\SteamLibrary\...` live pak  
 - `qol_KNOWN_GOOD_latest.zip`  
 - Version bump / CHANGELOG / tag (README ruby line may be the only other md drift)  
-- Raising ruby weight (left at **3**, rare on purpose)
+- Raising ruby weight (left at **3**, rare on purpose) — **superseded on home (2026-09-04):** ruby now **matches uranium** (`Metal_Dense` weight) in all 11 uranium regions; Olympus caves **20**. See CHANGELOG **1.21.1**.
 
 `_tools/`, `paks/`, `backup/`, `*.pak` remain gitignored.
