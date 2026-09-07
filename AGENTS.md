@@ -154,3 +154,4 @@ Format never changes: **one pak, Pete-safe, evolved from live.**
 - Prefer plans when the game is “perfect” and the user has not said execute.
 - No destructive/install steps without clear authorization.
 - When authorized: one pak, Pete first, minimal surface, backup → change → smoke → known-good.
+- **After every successful prod deploy:** update `README.md` / `CHANGELOG.md` if needed, refresh **`backup/qol_KNOWN_GOOD_latest.zip`**, then **commit and push** immediately. Never leave a deployed loadout change uncommitted — that is a failure point.

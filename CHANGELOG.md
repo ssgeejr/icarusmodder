@@ -13,6 +13,7 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 - `Item_Portable_Beacon`: `MaxStack` **100**, `Weight` **0** (laanp Pete w248 parity; laptop behavior)
 - Home Week 248 rebuild had left vanilla non-stacking beacons; fixed and locked into `rebuild.py`
 - Pete teleport remote unchanged
+- LKG refreshed: `backup/qol_KNOWN_GOOD_latest.zip`
 
 ---
 
