@@ -88,7 +88,7 @@ Do **not** “fix” stacking from a travel rebuild unless the user chooses.
 
 - **Keep travel behavior (stack 100):** leave Pete’s `Item_Portable_Beacon` row as-is (`MaxStack: 100`, `Weight: 0`). Never let the 10× stacks overlay write that name.
 - **Match home (do not stack):** after Pete extras are merged, set `Item_Portable_Beacon` back to **vanilla**: omit `MaxStack` (or null), `Weight: 10000`. Do **not** strip `Item_Petes_BeaconTeleportRemote` or the teleport recipe/assets.
-- Confirm with the user before changing this. Home truth: *portable beacons no longer stack*.
+- **Resolved home 2026-09-07:** user chose stack — home now `MaxStack: 100`, `Weight: 0` (v1.21.2).
 
 Pete **teleport remote** is a separate item (`Item_Petes_BeaconTeleportRemote`). Collision check: Pete recipe/item/static/mesh/BP identical to w248 source; 44 unique pak paths; no duplicates.
 

@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.21.2] — 2026-09-07
+
+### Loadout — portable beacons stack again
+
+- `Item_Portable_Beacon`: `MaxStack` **100**, `Weight` **0** (laanp Pete w248 parity; laptop behavior)
+- Home Week 248 rebuild had left vanilla non-stacking beacons; fixed and locked into `rebuild.py`
+- Pete teleport remote unchanged
+
+---
+
 ## [1.21.1] — 2026-09-04
 
 ### Loadout — ruby parity with uranium

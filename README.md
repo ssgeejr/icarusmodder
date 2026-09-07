@@ -150,4 +150,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.21.1):** Queen + worker bees **effectively immortal** (×10,000 fuel units); Week **248** schema; **ruby = uranium parity** (same cave regions/weights as `Metal_Dense`); wind **AlwaysActive + invulnerable**; stasis bags no hotbar lock; Super Cooled Ice **0.1s**; deep drills **+100% / +166%**; solar AlwaysActive; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; Pete; stacks/weight/craft. No extra EXMODs.
+**Current documented loadout (v1.21.2):** Queen + worker bees **effectively immortal** (×10,000 fuel units); Week **248** schema; **portable beacons stack 100** (Pete w248); **ruby = uranium parity**; wind **AlwaysActive + invulnerable**; stasis bags no hotbar lock; Super Cooled Ice **0.1s**; deep drills **+100% / +166%**; solar AlwaysActive; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; Pete; stacks/weight/craft. No extra EXMODs.
