@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.21.3] — 2026-09-08
+
+### Loadout — oil barrel in backpack
+
+- `Mesh_Oil_Barrel`: removed `EquipBackMesh` / `EquipBackActor` so Oil Barrel uses backpack inventory instead of the dedicated back slot
+- Locked into `rebuild.py` for future Week rebuilds
+- LKG refreshed
+
+---
+
 ## [1.21.2] — 2026-09-07
 
 ### Loadout — portable beacons stack again
