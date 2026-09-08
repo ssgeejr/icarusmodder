@@ -6,13 +6,22 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.21.4] — 2026-09-08
+
+### Loadout — revert oil barrel backpack experiment
+
+- Restored `Mesh_Oil_Barrel` to **vanilla** (`EquipBackMesh` + `EquipBackActor` / dedicated back slot)
+- 1.21.3 backpack attempt failed in-game; rolled back
+- LKG refreshed
+
+---
+
 ## [1.21.3] — 2026-09-08
 
-### Loadout — oil barrel in backpack
+### Loadout — oil barrel in backpack (reverted in 1.21.4)
 
-- `Mesh_Oil_Barrel`: removed `EquipBackMesh` / `EquipBackActor` so Oil Barrel uses backpack inventory instead of the dedicated back slot
-- Locked into `rebuild.py` for future Week rebuilds
-- LKG refreshed
+- Attempted: remove `EquipBackMesh` / `EquipBackActor` so Oil Barrel uses backpack inventory
+- **Failed in play** — do not reapply without a different approach
 
 ---
 
