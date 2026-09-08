@@ -40,7 +40,6 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Immortal bees** | QoL | Queen + workers: `UnitsProvided` **×10,000** vs vanilla (queen 360k→3.6B, workers 180k→1.8B) — effectively never burn out. |
 | **Stasis bag hotbar unlock** | QoL | Full stasis bags (body in bag): remove `Traits.Equippable.FocusLock` so hotbar **1–0** (Pete) works while carrying. Carcasses unchanged. |
 
-
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
 ### Deep mining (current values — reset from vanilla originals)
