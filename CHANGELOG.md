@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.21.5] — 2026-09-09
+
+### Loadout — +150% experience (2.5×)
+
+- `D_ExperienceEvents`: all nonzero `ExperienceGranted` values ×**2.5** (+150% XP)
+- `D_Experience` trait overrides: nonzero `GainedExperience` ×**2.5**
+- Intent: 5th character start-over — cut re-grind, keep early helplessness
+- Examples: ChopTree 100→250, MineStone 30→75, Easy_Mission 5000→12500
+- LKG refreshed
+
+---
+
 ## [1.21.4] — 2026-09-08
 
 ### Loadout — revert oil barrel backpack experiment
