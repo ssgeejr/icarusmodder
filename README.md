@@ -40,6 +40,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Immortal bees** | QoL | Queen + workers: `UnitsProvided` **×10,000** vs vanilla (queen 360k→3.6B, workers 180k→1.8B) — effectively never burn out. |
 | **Stasis bag hotbar unlock** | QoL | Full stasis bags (body in bag): remove `Traits.Equippable.FocusLock` so hotbar **1–0** (Pete) works while carrying. Carcasses unchanged. |
 | **+150% experience (2.5×)** | QoL | All `ExperienceGranted` events ×2.5 (chop/mine/craft/kill/missions). Faster leveling on restart; combat untouched. |
+| **Ice Box efficiency** | QoL | Ice fuel ~**10×** longer (`GenerationRate` 0.1); food spoil ~**5×** slower in-box (`IceBox_Spoil_Rate` -2500). |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
@@ -151,4 +152,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.21.5):** **+150% XP (2.5×)**; Queen + worker bees **effectively immortal** (×10,000 fuel units); Week **248** schema; **portable beacons stack 100**; **ruby = uranium parity**; wind **AlwaysActive + invulnerable**; stasis bags no hotbar lock; Super Cooled Ice **0.1s**; deep drills **+100% / +166%**; solar AlwaysActive; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; Pete; stacks/weight/craft. Oil Barrel remains vanilla back-slot. No extra EXMODs.
+**Current documented loadout (v1.21.6):** **Ice Box ~10× ice / ~5× food**; **+150% XP (2.5×)**; Queen + worker bees **effectively immortal** (×10,000 fuel units); Week **248** schema; **portable beacons stack 100**; **ruby = uranium parity**; wind **AlwaysActive + invulnerable**; stasis bags no hotbar lock; Super Cooled Ice **0.1s**; deep drills **+100% / +166%**; solar AlwaysActive; batteries **2×**; Olympus **Li / U / Ruby**; compost turbo; pouches 12; Pete; stacks/weight/craft. Oil Barrel remains vanilla back-slot. No extra EXMODs.

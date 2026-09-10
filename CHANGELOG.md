@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.21.6] — 2026-09-10
+
+### Loadout — Ice Box efficiency
+
+- `Ice_Box` generator `GenerationRate` **1 → 0.1** (~**10×** ice fuel duration; Ice Box only)
+- `IceBox_Spoil_Rate` `BaseInventorySpoilRate_+%` **-500 → -2500** (~**5×** longer food preserve vs prior icebox; approximate)
+- Added full `D_ModifierStates` to the pak for the spoil modifier
+- LKG refreshed
+
+---
+
 ## [1.21.5] — 2026-09-09
 
 ### Loadout — +150% experience (2.5×)
