@@ -107,6 +107,8 @@ Tools: UnrealPak under `_tools/UnrealPak` when present. Helpers: `exmod_to_pak.p
 
 **Numbers and full feature table live in [README.md](./README.md)** — keep that file current when balance changes. This file is process; README is loadout truth.
 
+**Laptop / second PC:** after `git pull`, tell Grok **update to latest changes**. See [docs/LAPTOP_SYNC.md](./docs/LAPTOP_SYNC.md). The `.pak` is not in git — sync means patch the live pak on that machine to match README/CHANGELOG.
+
 Format never changes: **one pak, Pete-safe, evolved from live.**
 
 ---

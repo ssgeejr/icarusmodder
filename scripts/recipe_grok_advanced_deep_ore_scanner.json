@@ -1,0 +1,26 @@
+{
+  "Name": "Grok_Advanced_Deep_Ore_Scanner",
+  "RequiredMillijoules": 5000,
+  "RecipeSets": [
+    { "RowName": "Machining_Bench", "DataTableName": "D_RecipeSets" },
+    { "RowName": "Fabricator", "DataTableName": "D_RecipeSets" },
+    { "RowName": "Manufacturer", "DataTableName": "D_RecipeSets" }
+  ],
+  "Inputs": [
+    { "Element": { "RowName": "Aluminium", "DataTableName": "D_ItemsStatic" }, "Count": 4 },
+    { "Element": { "RowName": "Electronics", "DataTableName": "D_ItemsStatic" }, "Count": 4 },
+    { "Element": { "RowName": "Gold_Wire", "DataTableName": "D_ItemsStatic" }, "Count": 10 },
+    { "Element": { "RowName": "Steel_Screw", "DataTableName": "D_ItemsStatic" }, "Count": 10 },
+    { "Element": { "RowName": "Copper_Wire", "DataTableName": "D_ItemsStatic" }, "Count": 20 },
+    { "Element": { "RowName": "Glass", "DataTableName": "D_ItemsStatic" }, "Count": 2 }
+  ],
+  "Outputs": [
+    {
+      "Element": { "RowName": "Meta_Scanner_DeepOre", "DataTableName": "D_ItemTemplate" },
+      "Count": 1,
+      "DynamicProperties": [],
+      "Alterations": []
+    }
+  ],
+  "Audio": { "RowName": "MachiningBench" }
+}

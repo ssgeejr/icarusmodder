@@ -6,12 +6,23 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.21.9] — 2026-09-10
+
+### Loadout — Adv scanner on Fab/Manufacturer + laptop sync docs
+
+- `Grok_Advanced_Deep_Ore_Scanner` RecipeSets: **Machining_Bench + Fabricator + Manufacturer**
+- Tracked: `docs/ADVANCED_DEEP_ORE_SCANNER.md`, `docs/LAPTOP_SYNC.md`, `scripts/recipe_*.json`, `scripts/ensure_adv_deep_ore_scanner.py`
+- After `git pull` on laptop, tell Grok: **update to latest changes** (see `docs/LAPTOP_SYNC.md`)
+- LKG refreshed
+
+---
+
 ## [1.21.8] — 2026-09-10
 
 ### Loadout — Advanced Deep Ore Scanner at Machining Bench
 
 - New recipe `Grok_Advanced_Deep_Ore_Scanner` → outputs workshop **`Meta_Scanner_DeepOre`** (Advanced Deep Mining Ore Scanner)
-- Bench: **Machining Bench** only; no talent/Ren gate
+- Bench: **Machining Bench** only (extended to Fab/Manufacturer in 1.21.9); no talent/Ren gate
 - Cost (QoL 50% already applied): Aluminium 4, Electronics 4, Gold Wire 10, Steel Screw 10, Copper Wire 20, Glass 2; 5000 mJ
 - Same item/BP as orbital Advanced scanner (ore-type toggle)
 - LKG refreshed
