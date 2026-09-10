@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.21.8] — 2026-09-10
+
+### Loadout — Advanced Deep Ore Scanner at Machining Bench
+
+- New recipe `Grok_Advanced_Deep_Ore_Scanner` → outputs workshop **`Meta_Scanner_DeepOre`** (Advanced Deep Mining Ore Scanner)
+- Bench: **Machining Bench** only; no talent/Ren gate
+- Cost (QoL 50% already applied): Aluminium 4, Electronics 4, Gold Wire 10, Steel Screw 10, Copper Wire 20, Glass 2; 5000 mJ
+- Same item/BP as orbital Advanced scanner (ore-type toggle)
+- LKG refreshed
+
+---
+
 ## [1.21.7] — 2026-09-10
 
 ### Loadout — electric fridge spoil buff
