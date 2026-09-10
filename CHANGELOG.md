@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.21.7] — 2026-09-10
+
+### Loadout — electric fridge spoil buff
+
+- `Refrigerator_Spoil_Rate` `BaseInventorySpoilRate_+%` **-1000 → -5000** (**5×** QoL Ice Box at -2500)
+- Ice Box values unchanged (rate 0.1 / spoil -2500)
+- LKG refreshed
+
+---
+
 ## [1.21.6] — 2026-09-10
 
 ### Loadout — Ice Box efficiency
