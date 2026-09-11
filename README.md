@@ -154,4 +154,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.21.9):** **Advanced Deep Ore Scanner** at Machining/Fabricator/Manufacturer; **Fridge spoil -5000**; **Ice Box ~10× ice / ~5× food**; **+150% XP (2.5×)**; bees immortal; Week **248**; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop sync: `docs/LAPTOP_SYNC.md`. No extra EXMODs.
+**Current documented loadout (v1.22.0):** Week **249** schema (Inaris Powerbank era); **Advanced Deep Ore Scanner** at Machining/Fabricator/Manufacturer; **Fridge spoil -5000**; **Ice Box ~10× ice / ~5× food**; **+150% XP (2.5×)**; bees immortal; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop sync: `docs/LAPTOP_SYNC.md`. No extra EXMODs.

@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.22.0] — 2026-09-11
+
+### Loadout — Week 249 schema rebuild (Inaris Powerbank)
+
+- Rebased on game `data.pak` **Sep 10 ~17:15** (Week **249** / Steam buildid **25226979**)
+- Closes shared-table gaps: `Meta_Powerbank`, `Item_Crab_Head`, Ground Dragon XP/meshes, tame Conifer Wolf carcass, alloy/ore meshes, etc.
+- Re-applied full QoL stack (Pete, stacks/weight, craft 50%, XP 2.5×, Ice Box/Fridge, ruby=uranium, Adv scanner 3 benches, bees, drills, …)
+- LKG refreshed
+
+---
+
 ## [1.21.9] — 2026-09-10
 
 ### Loadout — Adv scanner on Fab/Manufacturer + laptop sync docs
