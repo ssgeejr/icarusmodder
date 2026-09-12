@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.22.1] — 2026-09-12
+
+### Loadout — crop growth +500% (6×)
+
+- Added `Farming/D_FarmingGrowthStates.json`: all `TimeToNextState` ÷ **6** (+500% growth speed)
+- Corn ~60 min → **~10 min**; wheat ~30 min → **~5 min** (base; plot/water bonuses still stack)
+- Homestead/Mendel farming wait cut for restart play
+- LKG refreshed
+
+---
+
 ## [1.22.0] — 2026-09-11
 
 ### Loadout — Week 249 schema rebuild (Inaris Powerbank)
