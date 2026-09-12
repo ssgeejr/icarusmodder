@@ -1,0 +1,19 @@
+{
+  "Name": "Grok_Fireplace_Stick_Charcoal",
+  "RequiredMillijoules": 100,
+  "RecipeSets": [
+    { "RowName": "Campfire", "DataTableName": "D_RecipeSets" }
+  ],
+  "Inputs": [
+    { "Element": { "RowName": "Stick", "DataTableName": "D_ItemsStatic" }, "Count": 1 }
+  ],
+  "Outputs": [
+    {
+      "Element": { "RowName": "Charcoal", "DataTableName": "D_ItemTemplate" },
+      "Count": 100,
+      "DynamicProperties": [],
+      "Alterations": []
+    }
+  ],
+  "Audio": { "RowName": "Campfire" }
+}

@@ -6,14 +6,22 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.22.3] — 2026-09-12
+
+### Loadout — Fireplace stick→charcoal; revert Potbelly 100×
+
+- **Reverted** Potbelly `GenerationRate` to vanilla **2500** (100× fuel burn did not speed charcoal byproduct)
+- New recipe `Grok_Fireplace_Stick_Charcoal`: **1 Stick → 100 Charcoal** on **Campfire** recipe set (powers **Fireplace**; campfires see it too — no Fireplace-only set in data)
+- RequiredMillijoules **100**; tracked in `scripts/recipe_grok_fireplace_stick_charcoal.json`
+- LKG refreshed
+
+---
+
 ## [1.22.2] — 2026-09-12
 
-### Loadout — Potbelly Stove 100× fuel burn
+### Loadout — Potbelly Stove 100× fuel burn (reverted in 1.22.3)
 
-- `Pot_Belly_Stove` `GenerationRate` **2500 → 250000** (100×; stove only)
-- Sticks/wood/etc. in Potbelly chew through fast → charcoal byproducts at matching rate
-- Campfire and other burners unchanged; Ice Box still 0.1
-- LKG refreshed
+- Attempted `GenerationRate` 250000 — **no visible charcoal rate change** (fuel burn demand-capped); rolled back
 
 ---
 
