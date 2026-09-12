@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.22.2] — 2026-09-12
+
+### Loadout — Potbelly Stove 100× fuel burn
+
+- `Pot_Belly_Stove` `GenerationRate` **2500 → 250000** (100×; stove only)
+- Sticks/wood/etc. in Potbelly chew through fast → charcoal byproducts at matching rate
+- Campfire and other burners unchanged; Ice Box still 0.1
+- LKG refreshed
+
+---
+
 ## [1.22.1] — 2026-09-12
 
 ### Loadout — crop growth +500% (6×)

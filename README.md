@@ -44,6 +44,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Electric fridge spoil** | QoL | `Refrigerator_Spoil_Rate` **-5000** (5× QoL Ice Box / was vanilla -1000). |
 | **Advanced Deep Ore Scanner** | QoL | Workshop Advanced scanner (`Meta_Scanner_DeepOre`) at **Machining / Fabricator / Manufacturer**. See `docs/ADVANCED_DEEP_ORE_SCANNER.md`. |
 | **Crop growth +500% (6×)** | QoL | All farm `TimeToNextState` ÷6 — corn ~10 min, wheat ~5 min base. |
+| **Potbelly 100× fuel** | QoL | `Pot_Belly_Stove` GenerationRate 250000 — charcoal factory; other burners vanilla. |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
@@ -155,4 +156,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.22.1):** **Crop growth +500% (6×)**; Week **249** schema; **Advanced Deep Ore Scanner** at Machining/Fab/Manufacturer; **Fridge -5000**; **Ice Box ~10× ice / ~5× food**; **+150% XP**; bees immortal; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. No extra EXMODs.
+**Current documented loadout (v1.22.2):** **Potbelly 100× fuel/charcoal**; **Crop growth +500% (6×)**; Week **249**; Adv Deep Ore Scanner (Machining/Fab/Manufacturer); Fridge -5000; Ice Box ~10× ice / ~5× food; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. No extra EXMODs.
