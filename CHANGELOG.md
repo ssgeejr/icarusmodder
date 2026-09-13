@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.22.4] — 2026-09-13
+
+### Loadout — Windmill queue 10; wood→sap ×5
+
+- `Windmill` `QueueSize` **5 → 10**
+- `Tree_Sap_Wood`: **1 Wood → 5 Tree Sap** (was 2; Material Processor + Mortar & Pestle)
+- LKG refreshed
+
+---
+
 ## [1.22.3] — 2026-09-12
 
 ### Loadout — Fireplace stick→charcoal; revert Potbelly 100×

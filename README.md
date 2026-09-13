@@ -45,6 +45,8 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Advanced Deep Ore Scanner** | QoL | Workshop Advanced scanner (`Meta_Scanner_DeepOre`) at **Machining / Fabricator / Manufacturer**. See `docs/ADVANCED_DEEP_ORE_SCANNER.md`. |
 | **Crop growth +500% (6×)** | QoL | All farm `TimeToNextState` ÷6 — corn ~10 min, wheat ~5 min base. |
 | **Fireplace charcoal factory** | QoL | **1 Stick → 100 Charcoal** on Fireplace/Campfire (`Grok_Fireplace_Stick_Charcoal`). Potbelly fuel rate left vanilla. |
+| **Windmill queue 10** | QoL | Windmill crafting queue **10** (was 5). |
+| **Wood → Tree Sap ×5** | QoL | `Tree_Sap_Wood`: 1 Wood → **5** Tree Sap (Material Processor / Mortar). |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
@@ -156,4 +158,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.22.3):** **Fireplace 1 Stick → 100 Charcoal**; **Crop growth +500% (6×)**; Week **249**; Adv Deep Ore Scanner; Fridge -5000; Ice Box ~10× ice / ~5× food; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. No extra EXMODs.
+**Current documented loadout (v1.22.4):** **Windmill queue 10**; **1 Wood → 5 Tree Sap**; **Fireplace 1 Stick → 100 Charcoal**; **Crop growth +500% (6×)**; Week **249**; Adv Deep Ore Scanner; Fridge -5000; Ice Box; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. No extra EXMODs.
