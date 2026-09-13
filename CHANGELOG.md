@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.22.5] — 2026-09-13
+
+### Loadout — Clay in every cave (5× uranium)
+
+- Added `Clay_Ore_Dense` voxel (`ResourceType: Clay`) — Homestead clay without swamp map lock
+- Injected into **24** cave/abyss/gorge regions at **5× Metal_Dense (uranium)** weight (Olympus caves **100** vs U/ruby **20**)
+- Pickaxe cave clay on Olympus / Styx / Prometheus / Elysium / Arkadia cave systems
+- Does not spawn swamp sledgehammer clay cubes (those stay map props)
+- LKG refreshed
+
+---
+
 ## [1.22.4] — 2026-09-13
 
 ### Loadout — Windmill queue 10; wood→sap ×5

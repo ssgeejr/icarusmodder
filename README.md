@@ -47,6 +47,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Fireplace charcoal factory** | QoL | **1 Stick → 100 Charcoal** on Fireplace/Campfire (`Grok_Fireplace_Stick_Charcoal`). Potbelly fuel rate left vanilla. |
 | **Windmill queue 10** | QoL | Windmill crafting queue **10** (was 5). |
 | **Wood → Tree Sap ×5** | QoL | `Tree_Sap_Wood`: 1 Wood → **5** Tree Sap (Material Processor / Mortar). |
+| **Cave Clay (all maps)** | QoL | `Clay_Ore_Dense` in every cave system at **5× uranium** weight — Homestead clay on Olympus etc. |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
@@ -158,4 +159,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.22.4):** **Windmill queue 10**; **1 Wood → 5 Tree Sap**; **Fireplace 1 Stick → 100 Charcoal**; **Crop growth +500% (6×)**; Week **249**; Adv Deep Ore Scanner; Fridge -5000; Ice Box; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. No extra EXMODs.
+**Current documented loadout (v1.22.5):** **Cave Clay 5× uranium (all cave systems)**; **Windmill queue 10**; **1 Wood → 5 Tree Sap**; **Fireplace 1 Stick → 100 Charcoal**; **Crop growth +500% (6×)**; Week **249**; Adv Deep Ore Scanner; Fridge -5000; Ice Box; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. No extra EXMODs.
