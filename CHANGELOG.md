@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.23.0] — 2026-09-22
+
+### Loadout — Week 250 schema rebuild (Electric Seed Extractor)
+
+- Rebased on game `data.pak` **Sep 22** (Week **250** / Steam buildid **25290513**)
+- Closes gaps: `Electric_Seed_Extractor`, `Item_Workshop_Lantern`, settlement meshables, Meta seed consumables, etc.
+- Re-applied full QoL stack (Pete, clay caves, XP 2.5×, farm 6×, Ice Box/Fridge, ruby=U, Adv scanner, Fireplace charcoal, Windmill queue 10, sap ×5, …)
+- LKG refreshed
+
+---
+
 ## [1.22.5] — 2026-09-13
 
 ### Loadout — Clay in every cave (5× uranium)
