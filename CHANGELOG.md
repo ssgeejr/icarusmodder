@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.23.1] — 2026-09-23
+
+### Loadout — Elysium caves full QoL ores
+
+- All Elysium **caves / gorge / geothermal pools**: Uranium (`Metal_Dense`) **20**, Lithium **20**, Ruby **20**, Clay **100** (Olympus baseline)
+- Was incomplete (many caves missing U/Li/ruby; clay-only in places)
+- New Elysium OW: hunt unexplored caves for voxels
+- LKG refreshed
+
+---
+
 ## [1.23.0] — 2026-09-22
 
 ### Loadout — Week 250 schema rebuild (Electric Seed Extractor)
