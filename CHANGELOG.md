@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.23.2] — 2026-09-25
+
+### Loadout — Sep 25 schema rebase (laptop)
+
+- Rebased live grok pak on game `data.pak` **25 Sep 2026** (Steam buildid **25494131**)
+- Picks up vanilla rows the 17 Sep home pak lacked: `Electric_Seed_Extractor`, `Creature_Bait_Kiwi`, plus new item/mesh/modifier/consumable rows
+- Applied **v1.23.1** Elysium cave/gorge/geothermal U **20** / Li **20** / Ruby **20** / Clay **100** (was incomplete on the 17 Sep binary)
+- Pete recipe/item/assets kept; portable beacons still `MaxStack` 100
+- Prod: Perryville `mods\grok.qualityoflife_P.pak` only
+
+---
+
 ## [1.23.1] — 2026-09-23
 
 ### Loadout — Elysium caves full QoL ores
