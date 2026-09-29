@@ -49,6 +49,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Wood → Tree Sap ×5** | QoL | `Tree_Sap_Wood`: 1 Wood → **5** Tree Sap (Material Processor / Mortar). |
 | **Cave Clay (all maps)** | QoL | `Clay_Ore_Dense` in every cave system at **5× uranium** weight — Homestead clay on Olympus etc. |
 | **Elysium cave ores** | QoL | Elysium caves/gorge/pools: **U / Li / Ruby / Clay** at Olympus weights (20/20/20/100). |
+| **Deep Ore Scanner 10× range** | QoL | Scanner BP `MaxScanningRange` **300 m → 3000 m** (basic + Advanced). Our pak only. |
 
 Optional text/script files from authors may sit inside the pak; the game loads the **data tables + Pete assets**.
 
@@ -160,4 +161,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.23.2):** schema on **25 Sep 2026** `data.pak` (build **25494131**); **Elysium caves U/Li/Ruby/Clay**; **Cave Clay 5× uranium**; Windmill queue 10; wood→sap ×5; Fireplace stick→100 charcoal; crop growth 6×; Adv Deep Ore Scanner; Fridge -5000; Ice Box; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. No extra EXMODs.
+**Current documented loadout (v1.23.3):** **Deep Ore Scanner 10× range (3 km)**; schema **25 Sep 2026** build **25494131**; **Elysium caves U/Li/Ruby/Clay**; Cave Clay 5× U; Windmill queue 10; wood→sap ×5; Fireplace stick→100 charcoal; crop growth 6×; Adv Deep Ore Scanner craft; Fridge -5000; Ice Box; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: \docs/LAPTOP_SYNC.md\. **One pak only.**

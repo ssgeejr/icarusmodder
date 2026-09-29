@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.23.3] — 2026-09-29
+
+### Loadout — Deep Ore Scanner range 10×
+
+- Baked into **our** pak only: `BP_ActionableBehaviour_Scanner_DeepOre` `MaxScanningRange` **300 m → 3000 m**
+- Applies to basic **and Advanced** deep ore scanners (Advanced inherits base BP)
+- Assets under `assets/scanner_range/`; rebuild copies them in
+- No third-party paks
+- LKG refreshed
+
+---
+
 ## [1.23.2] — 2026-09-25
 
 ### Loadout — Sep 25 schema rebase (laptop)
