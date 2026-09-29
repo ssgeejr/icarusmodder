@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.24.2] — 2026-09-29
+
+### Loadout — Oil 4× (4-well area): jack + refiner
+
+- Root cause of slow barrels: jack at 1000 still hit the **refiner’s vanilla 1000** crude/refined/energy flow ceiling
+- `Pump_Jack` `GenerationRate` **1000 → 4000**, `GenerationRatio` **1.0** (~4k power ≈ 4 wells)
+- Added `D_CrudeOil` + `D_RefinedOil`; `Crude_Oil_Refiner` `ResourceFlowRate` **4000** (intake + barrel fill)
+- `D_Energy` `Crude_Oil_Refiner` `ResourceFlowRate` **4000**
+- LKG refreshed
+
+---
+
 ## [1.24.1] — 2026-09-29
 
 ### Loadout — Pump Jack one-jack = one refinery
