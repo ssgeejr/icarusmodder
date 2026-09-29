@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.24.1] — 2026-09-29
+
+### Loadout — Pump Jack one-jack = one refinery
+
+- `Pump_Jack` in `D_Generator`: `GenerationRate` **200 → 1000**, `GenerationRatio` **0.2 → 1.0**
+- One Pump Jack fully feeds one Crude Oil Refiner (vanilla needed ~5); power draw stays ~**1000**
+- Rebuild overlay keeps the same values on schema rebuilds
+- LKG refreshed
+
+---
+
 ## [1.24.0] — 2026-09-29
 
 ### Release — Deep Ore Scanner 10× range (minor)
