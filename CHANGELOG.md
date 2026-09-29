@@ -6,6 +6,19 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.24.0] — 2026-09-29
+
+### Release — Deep Ore Scanner 10× range (minor)
+
+- Formal minor tag for the live single-pak loadout that includes **Deep Ore Scanner 10× range**
+- `BP_ActionableBehaviour_Scanner_DeepOre` `MaxScanningRange` **300 m → 3000 m** (basic + Advanced inherit)
+- Assets under `assets/scanner_range/`; rebuild copies them into `grok.qualityoflife_P.pak`
+- Schema base: **25 Sep 2026** build **25494131** (from 1.23.2) plus Elysium cave ores and prior QoL
+- One pak only; third-party research under `Extracted Mods/` stays local (gitignored)
+- LKG: `backup/qol_KNOWN_GOOD_latest.zip`
+
+---
+
 ## [1.23.3] — 2026-09-29
 
 ### Loadout — Deep Ore Scanner range 10×

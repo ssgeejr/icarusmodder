@@ -1,6 +1,7 @@
 # Advanced Deep Mining Ore Scanner (planet craft)
 
-**Loadout version:** v1.21.9+  
+**Loadout version:** v1.24.0+ (craft since v1.21.9; **10× scan range** since v1.23.3 / tagged v1.24.0)  
+
 **Recipe name:** `Grok_Advanced_Deep_Ore_Scanner`  
 **Output item:** `Meta_Scanner_DeepOre` (vanilla **Advanced Deep Mining Ore Scanner** — same as Orbital Workshop)
 

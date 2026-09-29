@@ -1,5 +1,6 @@
 # Project — local / extracted / backups (not source of truth)
 backup/
+# Third-party research dumps / EXMODZ reviews — never commit or push
 Extracted Mods/
 Waste_Not/
 _tools/
