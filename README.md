@@ -30,7 +30,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **Saddles & backpacks** | Deyvid | Balanced carry capacity on saddles/backpacks. |
 | **Wood fuel ×10** | Deyvid | Wood burns much longer as fuel. |
 | **No water-wheel junk** | laanp | Water wheels do not accumulate junk (`Waterwheel` inventory slot template). |
-| **Deep mining drills** | QoL | **2× production** on biofuel + electric drills; **ice borer** fixed via deposit cycle (see below). Fuel on shared biofuel generator stays vanilla. |
+| **Deep mining drills** | QoL | **2× production** on biofuel + **oil** + electric drills; **ice borer** fixed via deposit cycle (see below). Fuel burn stays vanilla (biofuel + refined oil). |
 | **Always-on solar & wind** | Unlimited Energy–style | `AlwaysActive` on solar + wind energy rows so they keep producing without sun/wind gates (data approach). |
 | **Wind turbine no damage** | QoL | `Wind_Turbine` `IsInvulnerable_?` so storm/overclock wear (and other damage) can’t cut output — with AlwaysActive = uninterrupted wind power. |
 | **Faster battery charge** | QoL | 2× `ResourceFlowRate` on basic + T4 battery racks (fill/throughput). |
@@ -56,11 +56,11 @@ Optional text/script files from authors may sit inside the pak; the game loads t
 
 ### Deep mining (current values — reset from vanilla originals)
 
-| Setting | Biofuel deep drill | Ice borer / Super Cooled Ice | Electric deep drill | Notes |
-|---------|--------------------|------------------------------|---------------------|--------|
-| **Speed** `BaseDeepMiningDrillSpeed_+%` | **+100%** (~2× bare base) | *(does not drive ice rate — BP ignores it)* | **+166%** | Oil unchanged. |
-| **Deposit cycle** `D_OreDeposit.MiningTimeSeconds` | n/a (ore veins) | **Super_Cooled_Ice + Frozen_Wood: 30 → 0.1** (~**300×**, ~2/min → ~**600/min**) | n/a | Real ice-borer yield lever. |
-| **Fuel burn** `GenerationRatio` `Deep_Mining_Biofuel_Drill` | **0.75** (vanilla) | **shared** same generator | N/A | Leave vanilla. |
+| Setting | Biofuel deep drill | Oil deep drill | Ice borer / Super Cooled Ice | Electric deep drill | Notes |
+|---------|--------------------|----------------|------------------------------|---------------------|--------|
+| **Speed** `BaseDeepMiningDrillSpeed_+%` | **+100%** | **+100%** (was vanilla +50) | *(does not drive ice rate — BP ignores it)* | **+166%** | Oil matches biofuel QoL. |
+| **Deposit cycle** `D_OreDeposit.MiningTimeSeconds` | n/a (ore veins) | n/a | **Super_Cooled_Ice + Frozen_Wood: 30 → 0.1** (~**300×**) | n/a | Real ice-borer yield lever. |
+| **Fuel burn** `GenerationRatio` | **0.75** biofuel (vanilla) | **0.75** refined oil (vanilla) | shared biofuel gen | N/A | Leave vanilla. |
 
 Intent: ore drills ~2×; **ice actually farmable** via deposit time (not the useless drill-speed stat on the ice borer).
 
@@ -162,4 +162,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.24.2):** **Pump Jack + Crude Oil Refinery 4× (4000)**; **Deep Ore Scanner 10× range (3 km)**; schema **25 Sep 2026** build **25494131**; **Elysium caves U/Li/Ruby/Clay**; Cave Clay 5× U; Windmill queue 10; wood→sap ×5; Fireplace stick→100 charcoal; crop growth 6×; Adv Deep Ore Scanner craft; Fridge -5000; Ice Box; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. **One pak only.**
+**Current documented loadout (v1.24.3):** **Oil Deep-Mining Drill speed +100** (match biofuel); **Pump Jack + Crude Oil Refinery 4× (4000)**; **Deep Ore Scanner 10× range (3 km)**; schema **25 Sep 2026** build **25494131**; **Elysium caves U/Li/Ruby/Clay**; Cave Clay 5× U; Windmill queue 10; wood→sap ×5; Fireplace stick→100 charcoal; crop growth 6×; Adv Deep Ore Scanner craft; Fridge -5000; Ice Box; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. **One pak only.**

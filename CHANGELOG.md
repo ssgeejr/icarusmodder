@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.24.3] — 2026-09-29
+
+### Loadout — Oil Deep-Mining Drill speed = biofuel
+
+- `Deep_Mining_Drill_Oil` `BaseDeepMiningDrillSpeed_+%` **50 → 100** (same QoL as biofuel deep drill)
+- Fuel `Deep_Mining_Oil_Drill` `GenerationRatio` left **0.75** vanilla; inventory slots unchanged
+- LKG refreshed
+
+---
+
 ## [1.24.2] — 2026-09-29
 
 ### Loadout — Oil 4× (4-well area): jack + refiner
