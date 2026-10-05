@@ -6,6 +6,19 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.25.0] — 2026-10-05
+
+### Loadout — Week 252 schema rebuild
+
+- Rebased on game `data.pak` **1 Oct 2026** (Week **252** / Steam buildid **25621870** / changelog **3.0.30.158174**)
+- Picks up vanilla gaps vs prior Sep extract: **Sandhorn Horn** (`Flightless_Tank_Horn` + `Resin_Flightless_Tank_Horn` → 300 Organic Resin), `CreatureBait_Kiwi` / `Creature_Bait_Kiwi`, `Prop_Glass_Display_Cabinet`, `AntiRadiation_Tonic`, settlement meshables, `MineLead` XP; drops removed vanilla `Electric_Motor` / `Cobalt_Ore` static rows
+- Crop water/fertilize base XP now vanilla **150** (was 100) → with QoL ×2.5 → **375** granted
+- Re-applied full QoL stack: Pete, scanner 10×, Pump Jack/refiner **4000**, oil+bio drills **+100**, electric **+166**, Elysium ores, farm 6×, ice 0.1s, stacks/craft/etc.
+- Field Guide subcategory work is vanilla-only (no QoL table change)
+- LKG refreshed
+
+---
+
 ## [1.24.3] — 2026-09-29
 
 ### Loadout — Oil Deep-Mining Drill speed = biofuel
