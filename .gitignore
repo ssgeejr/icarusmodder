@@ -2,6 +2,8 @@
 backup/
 # Third-party research dumps / EXMODZ reviews — never commit or push
 Extracted Mods/
+# Local paste dumps (often mix game notes with personal content)
+patch_notes.txt
 Waste_Not/
 _tools/
 paks/
