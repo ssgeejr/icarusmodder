@@ -42,6 +42,7 @@ Everything below is **folded into that one pak**. Path conflicts between sources
 | **+150% experience (2.5×)** | QoL | All `ExperienceGranted` events ×2.5 (chop/mine/craft/kill/missions). Faster leveling on restart; combat untouched. |
 | **Ice Box efficiency** | QoL | Ice fuel ~**10×** longer (`GenerationRate` 0.1); food spoil ~**5×** slower in-box (`IceBox_Spoil_Rate` -2500). |
 | **Electric fridge spoil** | QoL | `Refrigerator_Spoil_Rate` **-5000** (5× QoL Ice Box / was vanilla -1000). |
+| **Deep Freeze 50 slots** | QoL | `Deep_Freeze` inventory **24 → 50** slots. |
 | **Advanced Deep Ore Scanner** | QoL | Workshop Advanced scanner (`Meta_Scanner_DeepOre`) at **Machining / Fabricator / Manufacturer**. See `docs/ADVANCED_DEEP_ORE_SCANNER.md`. |
 | **Crop growth +500% (6×)** | QoL | All farm `TimeToNextState` ÷6 — corn ~10 min, wheat ~5 min base. |
 | **Fireplace charcoal factory** | QoL | **1 Stick → 100 Charcoal** on Fireplace/Campfire (`Grok_Fireplace_Stick_Charcoal`). Potbelly fuel rate left vanilla. |
@@ -162,4 +163,4 @@ The playable pak is **not** in git; it is built locally and lives under the game
 
 **Prod:** only `grok.qualityoflife_P.pak` in `Paks\mods`. After a verified good session, refresh `backup/qol_KNOWN_GOOD_latest.zip` from that live file.
 
-**Current documented loadout (v1.25.0):** schema **Week 252** / **1 Oct 2026** build **25621870** (Sandhorn Horn, kiwi bait, glass cabinet); **Oil Deep-Mining Drill speed +100**; **Pump Jack + Crude Oil Refinery 4× (4000)**; **Deep Ore Scanner 10× range (3 km)**; **Elysium caves U/Li/Ruby/Clay**; Cave Clay 5× U; Windmill queue 10; wood→sap ×5; Fireplace stick→100 charcoal; crop growth 6×; Adv Deep Ore Scanner craft; Fridge -5000; Ice Box; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. **One pak only.**
+**Current documented loadout (v1.25.1):** **Deep Freeze 50 slots**; schema **Week 252** / **1 Oct 2026** build **25621870** (Sandhorn Horn, kiwi bait, glass cabinet); **Oil Deep-Mining Drill speed +100**; **Pump Jack + Crude Oil Refinery 4× (4000)**; **Deep Ore Scanner 10× range (3 km)**; **Elysium caves U/Li/Ruby/Clay**; Cave Clay 5× U; Windmill queue 10; wood→sap ×5; Fireplace stick→100 charcoal; crop growth 6×; Adv Deep Ore Scanner craft; Fridge -5000; Ice Box; +150% XP; bees; beacon stacks; ruby=uranium; wind AlwaysActive+invuln; stasis unlock; ice 0.1s; drills; solar/batteries; Olympus Li/U/Ruby; compost; pouches 12; Pete; stacks/weight/craft. Laptop: `docs/LAPTOP_SYNC.md`. **One pak only.**

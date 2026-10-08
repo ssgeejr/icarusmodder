@@ -6,6 +6,15 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.25.1] — 2026-10-08
+
+### Loadout — Deep Freeze 50 slots
+
+- `Deep_Freeze` `StartingSlots` **24 → 50** (`D_InventoryInfo`)
+- LKG refreshed
+
+---
+
 ## [1.25.0] — 2026-10-05
 
 ### Loadout — Week 252 schema rebuild
