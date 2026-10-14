@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.25.2] — 2026-10-14
+
+### Loadout — Craft Gustav S5 Envirosuit at Crafting Bench
+
+- New recipe `Grok_Gustav_Envirosuit` → **Xigo "Gustav" S5 Envirosuit** (`Envirosuit_Tier4`)
+- **Crafting Bench** (also Machining / Fabricator / Manufacturer): **40 Leather, 40 Fiber, 20 Fur, 12 Bone, 8 Rope**
+- Crafting-Bench-tier mats only (no electronics / alloys)
+- LKG refreshed
+
+---
+
 ## [1.25.1] — 2026-10-08
 
 ### Loadout — Deep Freeze 50 slots
