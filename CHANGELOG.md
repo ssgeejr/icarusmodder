@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.25.3] — 2026-10-15
+
+### Loadout — Cool building mats = concrete-class storms + 100× HP
+
+- `Max_Durability` **400,000** (100× concrete 4000) on: Stone Brick, Clay Brick, Scoria, Scoria Brick, Aluminium (`Iron_Building`), Limestone, Stone
+- `BuildingTier` **8** + concrete stability stats on `Stone_*`, `Clay_Brick_*`, `Iron_*` (Limestone already used `Concrete_General`)
+- Aesthetic materials no longer lose to concrete on storms / integrity
+- LKG refreshed
+
+---
+
 ## [1.25.2] — 2026-10-14
 
 ### Loadout — Craft Gustav S5 Envirosuit at Crafting Bench
