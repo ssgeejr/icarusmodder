@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.0.0] — 2026-10-16
+
+### Release — current live QoL loadout (major)
+
+Major tag for the single-pak loadout as of this date. Includes:
+
+- Week 252 schema base; Pete; stacks/weight/craft; scanner 10×; Pump Jack/refiner 4000; oil+bio drills +100; cool buildings 400k HP + BuildingTier 8; Deep Freeze 50; Gustav at Crafting Bench; Gilded Framed Painting unlocked without Decorations DLC; Elysium ores; farm/XP/ice/drills/power QoL
+
+No new balance change in this tag — version bump of the known-good live pack.
+
+---
+
 ## [1.25.5] — 2026-10-16
 
 ### Loadout — Gilded Framed Painting without Interior Decorations DLC
