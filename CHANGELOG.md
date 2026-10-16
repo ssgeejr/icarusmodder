@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.1.0] — 2026-10-16
+
+### Loadout — Décor DLC packs unlocked at Carpentry Bench
+
+- Unlocked **163** pack recipes (no DLC session / talent / feature gates): `Decorations_Pack_1`, `Art_Deco_Pack`, `Industrial_Furniture_Pack`, `Creature_Comforts`, `Homestead`
+- All forced to **Carpentry Bench** / T4 only (geodes, furniture, paintings, homestead décor, creature comforts)
+- Stripped FeatureLevel on pack ItemTemplate outputs; removed `Grok_Gilded_Framed_Painting` (vanilla paintings unlocked)
+- Skipped mission recipes; left normal talent-only progression alone
+- LKG refreshed
+
+---
+
 ## [2.0.0] — 2026-10-16
 
 ### Release — current live QoL loadout (major)
