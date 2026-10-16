@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.25.5] — 2026-10-16
+
+### Loadout — Gilded Framed Painting without Interior Decorations DLC
+
+- New `Grok_Gilded_Framed_Painting` (no `Decorations_Pack_1` / talent / Galileo gates)
+- Craft at **Manufacturer** / Fabricator / Carpentry → `Painting_Gold_Wood`
+- QoL costs: **25 Refined Wood, 2 Refined Gold, 5 Fiber, 2 Paints**
+- Stripped Galileo from `Painting_Gold_Wood` ItemTemplate
+- LKG refreshed
+
+---
+
 ## [1.25.4] — 2026-10-16
 
 ### Loadout — Gilded Framed Painting at Manufacturer
