@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [1.25.4] — 2026-10-16
+
+### Loadout — Gilded Framed Painting at Manufacturer
+
+- `Painting_Gold_Wood` recipe sets: **+Fabricator +Manufacturer** (still Carpentry Bench)
+- Same inputs: Refined Wood / Refined Gold / Fiber / Paints
+- LKG refreshed
+
+---
+
 ## [1.25.3] — 2026-10-15
 
 ### Loadout — Cool building mats = concrete-class storms + 100× HP
