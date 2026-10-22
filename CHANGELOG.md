@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.2.0] — 2026-10-22
+
+### Loadout — Week 255 schema rebuild
+
+- Rebased on game `data.pak` **22 Oct 2026** (Week **255** / Steam buildid **26134651**)
+- Picks up **Rifle Turret** (`Turret_Rifle_Precision`), **Coconut Fish Curry**, fish food set, bandage poultice, new XP/skin events, Armor Stand T4, etc.
+- Vanilla removed `Item_Crab_Head` / explosive sniper workshop bundle rows — assert updated
+- Re-applied full QoL stack (décor@Carpentry 163, buildings 400k/tier8, oil 4000, drills, Pete, scanner 10×, …)
+- LKG refreshed
+
+---
+
 ## [2.1.0] — 2026-10-16
 
 ### Loadout — Décor DLC packs unlocked at Carpentry Bench
