@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.3] — 2026-10-23
+
+### Loadout — Revert organic oil chain to vanilla
+
+- Organic Extractor + Natural Oil Refiner rates/flows restored to **vanilla** (needles/tank fill broken by QoL overrides)
+- Removed non-vanilla `Natural_Oil_Refiner` row from `D_RefinedOil`
+- Oil refiner storage slots back to **5**
+- Pump Jack + Crude Oil Refiner **4×** unchanged
+- LKG refreshed
+
+---
+
 ## [2.4.2] — 2026-10-23
 
 ### Loadout — Fix Organic Extractor 1500 energy cap
@@ -15,6 +27,7 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 - `Natural_Oil_Refiner` `GenerationRate` **→ 10000** (was default 1000; converts biofuel→oil for 2 extractors)
 - Fuel/refined/energy flows stay **10000**; slots stay **25**
 - LKG refreshed
+- **Superseded by 2.4.3 revert**
 
 ---
 
