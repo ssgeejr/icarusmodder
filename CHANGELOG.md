@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.3.1] — 2026-10-23
+
+### Loadout — Larkwell Martinez Oxygen Tank at Manufacturer
+
+- `Grok_Larkwell_Oxygen_Tank` → Larkwell Martinez Oxygen Tank (T5 mats; upgrades from Oxygen Tank)
+- Stripped NewFrontiers feature gate on item template
+- LKG refreshed
+
+---
+
 ## [2.3.0] — 2026-10-23
 
 ### Loadout — Workshop gear at Electric Textiles Bench
