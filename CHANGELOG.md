@@ -6,6 +6,16 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.4] — 2026-10-23
+
+### Loadout — Organic Extractor 10× biofuel (extractor-only)
+
+- `Organic_Extractor` `GenerationRate` **500 → 5000** only
+- Natural Oil Refiner, energy/fuel flows, `D_RefinedOil`, and barrel slots left **vanilla** (avoids 2.4.x tank-fill break)
+- LKG refreshed
+
+---
+
 ## [2.4.3] — 2026-10-23
 
 ### Loadout — Revert organic oil chain to vanilla
