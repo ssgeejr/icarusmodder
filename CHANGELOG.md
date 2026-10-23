@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.0] — 2026-10-23
+
+### Loadout — Organic oil chain speed + Natural Refiner slots
+
+- `Organic_Extractor` `GenerationRate` **500 → 5000** (10× biofuel)
+- `Natural_Oil_Refiner` biofuel ingest / refined output / energy flow **1000 → 20000** (20×)
+- Natural Oil Refiner storage **5 → 25** slots (shared `Crude_Oil_Refiner` inventory row; crude refiner gets 25 too)
+- LKG refreshed
+
+---
+
 ## [2.3.1] — 2026-10-23
 
 ### Loadout — Larkwell Martinez Oxygen Tank at Manufacturer
