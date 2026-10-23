@@ -6,12 +6,22 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.1] — 2026-10-23
+
+### Loadout — Natural Refiner matched to 2 Organic Extractors
+
+- `Natural_Oil_Refiner` fuel / refined / energy flow **20000 → 10000** (equals 2 × Organic Extractor 5000)
+- Extractor 10× and 25 storage slots unchanged from v2.4.0
+- LKG refreshed
+
+---
+
 ## [2.4.0] — 2026-10-23
 
 ### Loadout — Organic oil chain speed + Natural Refiner slots
 
 - `Organic_Extractor` `GenerationRate` **500 → 5000** (10× biofuel)
-- `Natural_Oil_Refiner` biofuel ingest / refined output / energy flow **1000 → 20000** (20×)
+- `Natural_Oil_Refiner` biofuel ingest / refined output / energy flow **1000 → 20000** (20×; retuned in 2.4.1)
 - Natural Oil Refiner storage **5 → 25** slots (shared `Crude_Oil_Refiner` inventory row; crude refiner gets 25 too)
 - LKG refreshed
 
