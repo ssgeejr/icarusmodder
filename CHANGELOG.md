@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.7] — 2026-10-23
+
+### Loadout — Spoiled meat 10× yield; revert OE energy
+
+- `Spoiled_Meat` `UnitsProvided` **900 → 9000** (10× biofuel per meat; global transmutable)
+- `Organic_Extractor` energy **5000 → 1500** (energy test halved pulse to ~1475)
+- Gen/fuel 5000 + Natural Refiner 10000 unchanged
+- LKG refreshed
+
+---
+
 ## [2.4.6] — 2026-10-23
 
 ### Loadout — Organic Extractor energy 5000 (throughput test)
@@ -13,6 +24,7 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 - `Organic_Extractor` `D_Energy` `ResourceFlowRate` **1500 → 5000** (test if energy capped ~486/s pulse)
 - Prior fuel/gen 5000 + Natural Refiner 10000 unchanged; no `D_RefinedOil` NR row
 - LKG refreshed
+- **Superseded:** energy reverted in 2.4.7
 
 ---
 
