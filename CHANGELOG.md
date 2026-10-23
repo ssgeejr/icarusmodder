@@ -6,6 +6,20 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.3.0] — 2026-10-23
+
+### Loadout — Workshop gear at Electric Textiles Bench
+
+- New `Electric_Armor_Bench` crafts (T4 mats, no workshop/DLC gates):
+  - `Grok_Patcher_II_Module` → Patcher II
+  - `Grok_Protection_Module` → Protection Module (stripped NewFrontiers on item)
+  - `Grok_Explorer_Backpack` → Explorer Backpack
+  - `Grok_Culinex_Backpack` → Culinex Backpack
+  - `Grok_Inaris_Reaper_Sickle` → Inaris "Reaper" Sickle
+- LKG refreshed
+
+---
+
 ## [2.2.0] — 2026-10-22
 
 ### Loadout — Week 255 schema rebuild
