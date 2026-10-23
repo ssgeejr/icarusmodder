@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.8] — 2026-10-23
+
+### Loadout — Organic Extractor accepts all edible meats @ 9000
+
+- Allow-list: raw / cooked / dried / smoked meat types (not pie/stew/lure/attachments)
+- Each points at `Spoiled_Meat` transmute (**9000** biofuel)
+- Seed_Oil + Spoiled_Plants still accepted
+- LKG refreshed
+
+---
+
 ## [2.4.7] — 2026-10-23
 
 ### Loadout — Spoiled meat 10× yield; revert OE energy
