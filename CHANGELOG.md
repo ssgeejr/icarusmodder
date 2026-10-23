@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.5] — 2026-10-23
+
+### Loadout — Organic fuel flows 5000 / Natural Refiner 10000
+
+- `Organic_Extractor` fuel `ResourceFlowRate` **→ 5000** (was default 1000 UI ceiling) + `GenerationRate` **5000**
+- `Natural_Oil_Refiner` fuel ingest + `GenerationRate` **→ 10000**
+- Energy gauges and `D_RefinedOil` left vanilla (no fake NR row)
+- LKG refreshed
+
+---
+
 ## [2.4.4] — 2026-10-23
 
 ### Loadout — Organic Extractor 10× biofuel (extractor-only)
