@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.2] — 2026-10-23
+
+### Loadout — Fix Organic Extractor 1500 energy cap
+
+- Root cause of “refiner only producing 1500”: `Organic_Extractor` `D_Energy` `ResourceFlowRate` was still vanilla **1500**
+- `Organic_Extractor` energy + fuel flow **→ 5000** (match GenerationRate)
+- `Natural_Oil_Refiner` `GenerationRate` **→ 10000** (was default 1000; converts biofuel→oil for 2 extractors)
+- Fuel/refined/energy flows stay **10000**; slots stay **25**
+- LKG refreshed
+
+---
+
 ## [2.4.1] — 2026-10-23
 
 ### Loadout — Natural Refiner matched to 2 Organic Extractors
