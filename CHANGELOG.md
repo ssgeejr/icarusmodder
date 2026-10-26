@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.9] — 2026-10-26
+
+### Loadout — Reinforced Glass matches Concrete toughness
+
+- `Tempered_Glass_Building` HP **2500 → 4000** (= `Concrete_Building`)
+- `Glass_Tempered` stability → Concrete_General + **BuildingTier 8**
+- `Glass_Door_Reinforced` → `Deployable_1500` (= Concrete Door); window stays 1000 (already > Concrete Window)
+- LKG refreshed
+
+---
+
 ## [2.4.8] — 2026-10-23
 
 ### Loadout — Organic Extractor accepts all edible meats @ 9000
