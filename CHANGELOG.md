@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.10] — 2026-10-27
+
+### Loadout — Queen Bee breeding immortality
+
+- `Queen_Bee` `Max_Durability` **100 → 2_000_000_000** (Breeding Center no longer kills the queen after ~10 workers)
+- Fuel `UnitsProvided` stays **×10,000** (already live)
+- Worker spawn interval unchanged (~**0.05/min** / ~20 min — BP-locked; 10 min not available via JSON)
+- LKG refreshed
+
+---
+
 ## [2.4.9] — 2026-10-26
 
 ### Loadout — Reinforced Glass matches Concrete toughness
