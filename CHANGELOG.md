@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.11] — 2026-10-27
+
+### Loadout — Organic Extractor compost-tier overproduce
+
+- Yields: meat/plants/fiber **500,000** biofuel each; Seed_Oil path **1,000,000** (vs compost QoL 1000/craft)
+- Accepts **Fiber, Stick, Wood, Wheat, Guano** + all edible meats
+- OE gen/fuel **50,000**; Natural Oil Refiner **100,000**; energy stays **1500**
+- LKG refreshed
+
+---
+
 ## [2.4.10] — 2026-10-27
 
 ### Loadout — Queen Bee breeding immortality
