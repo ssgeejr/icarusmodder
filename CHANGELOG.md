@@ -6,6 +6,18 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.12] — 2026-10-27
+
+### Loadout — Organic Extractor BLOOM
+
+- OE `GenerationRate` **5,000,000** + `GenerationRatio` **100**; fuel flow **5,000,000**
+- Natural Oil Refiner gen/fuel **10,000,000**
+- Fiber/meat/plants/seed path **UnitsProvided 100,000,000** each
+- Energy still **1500**; pickup/redeploy Extractor after restart if UI still shows +500/min
+- LKG refreshed
+
+---
+
 ## [2.4.11] — 2026-10-27
 
 ### Loadout — Organic Extractor compost-tier overproduce
