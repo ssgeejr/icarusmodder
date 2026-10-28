@@ -6,6 +6,17 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.4.13] — 2026-10-28
+
+### Loadout — Workshop Repair Kit @ Manufacturer
+
+- `Grok_Workshop_Repair_Kit` → `Meta_Repair_Item` (Workshop Repair Kit)
+- Bench: **Manufacturer**
+- Cost: 10 Steel Ingot, 6 Composites, 8 Electronics, 8 Epoxy, 16 Aluminium Screw, 4 Carbon Fiber
+- LKG refreshed
+
+---
+
 ## [2.4.12] — 2026-10-27
 
 ### Loadout — Organic Extractor BLOOM
