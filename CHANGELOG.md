@@ -6,6 +6,20 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.5.0] — 2026-10-30
+
+### Loadout — Week 256 schema rebuild
+
+- Rebased on game `data.pak` **30 Oct 2026** (Week **256** / Steam buildid **26313227** / game version **v3.0.34.159385**)
+- Vanilla pass-through preserved: Alteration Bench HP **750**, Advanced Alteration Bench HP **1500** + non-flammable; Larkwell Frag Grenade Bundle itemable; removed DNT Jungle Monkey carcass
+- QoL overlays unchanged (Pete, BLOOM OE, bees, glass, Workshop Repair Kit, stacks/craft/gather, oil 4×, etc.)
+- `rebuild.py` asserts Week 256 Alteration Durable rows + `Item_Meta_Frag_Larkwell_Set`
+- LKG refreshed (`backup/qol_KNOWN_GOOD_latest.zip`)
+
+Game patch notes (no QoL balance change required): tech-tree search focus, Field Guide → tech tree button, autonomous spawn density fix (floaters/bees no longer starve natural spawns), railing snap to ramps, bestiary point pass for some bosses. Next week: Spelunking mission rework.
+
+---
+
 ## [2.4.13] — 2026-10-28
 
 ### Loadout — Workshop Repair Kit @ Manufacturer
