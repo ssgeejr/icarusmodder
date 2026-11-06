@@ -6,6 +6,20 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.6.0] — 2026-11-06
+
+### Loadout — Week 257 schema rebuild
+
+- Rebased on game `data.pak` **6 Nov 2026** (Week **257** / Steam buildid **26425211** / game version **v3.0.35.159586**)
+- Fresh extract `_tools/data_extract_w257` (302 JSON) promoted to `data_extract_latest`
+- Shared QoL tables post-diff **CLEAN**; new vanilla rows folded through: `Item_NPC_Rancher`, `Item_Fertility_Serum_Mammoth_Arctic`, `PlantMinion_Ranged_Needles`, `Rancher` processing, Workshop Lantern icon
+- QoL overlays unchanged (Pete, BLOOM OE, bees, glass, Workshop Repair Kit, stacks/craft/gather, oil 4×, etc.)
+- LKG refreshed (`backup/qol_KNOWN_GOOD_latest.zip`)
+
+Game patch notes (no QoL balance change required): Spelunking mission rework (mining hut / lower ore / no Ti-Pt delivery / on-world tools); caveworm/landshark/sandworm size fixes; quest-marker and drop-pod softlock fixes. Next week: battery-powered Workshop Lantern.
+
+---
+
 ## [2.5.0] — 2026-10-30
 
 ### Loadout — Week 256 schema rebuild
