@@ -6,6 +6,21 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.7.0] — 2026-11-14
+
+### Loadout — Week 258 schema rebuild
+
+- Rebased on game `data.pak` **14 Nov 2026** (Week **258** / Steam buildid **26613838** / game version **v3.0.36.159996**)
+- Fresh extract `_tools/data_extract_w258` (302 JSON) promoted to `data_extract_latest`
+- Shared QoL tables were **DIRTY** vs live (missing Workshop Lantern + bear/spore rows); post-rebuild **CLEAN**
+- New vanilla rows folded through: `Workshop_Lantern` (static + template, 7.5 kJ battery), `Item_Captured_Juvenile_Bear`, `AnimalCarcass_Bear_Mount`, `PlantMinion_Spore_Spores`, `Milk_Glass_Bottle_Full`, `AuraEffect_FearsomePresence` / `GrantedAura_FearsomePresence`, FeatureLevel `PenPals`
+- QoL overlays unchanged (Pete, BLOOM OE, bees, glass, Workshop Repair Kit, stacks/craft/gather, oil 4×, etc.)
+- LKG refreshed (`backup/qol_KNOWN_GOOD_latest.zip`)
+
+Game patch notes (no QoL balance change required): Inaris / Workshop battery lantern (360° light); Raptor collision cleanup; boss damage numbers visible farther; Spelunking leftover cleanup; Strange Troop accepts legendary flamethrower. Next week: Advanced Armor Stand (preview).
+
+---
+
 ## [2.6.0] — 2026-11-06
 
 ### Loadout — Week 257 schema rebuild
