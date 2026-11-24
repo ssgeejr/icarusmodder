@@ -6,6 +6,24 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.8.0] — 2026-11-24
+
+### Loadout — Week 259 schema rebuild + laptop handoff refresh
+
+- Rebased on game `data.pak` **20 Nov 2026** (Week **259** / Steam buildid **26636089** / game version **v3.0.37.160033**)
+- Fresh extract `_tools/data_extract_w259` (303 JSON, new `Paintings/D_PaintColours.json`) promoted to `data_extract_latest`
+- Live was **DIRTY** (missing powered armor stand + Roaster rename); post-rebuild **CLEAN**
+- New / renamed vanilla rows folded through:
+  - `Armour_Stand_T4` static + template; recipe `Armor_Stand_T4` @ Fabricator/Manufacturer (120 Aluminium, 4 Electronics, 60 Steel Screw, 8 Composites); talent `Armor_Stand_T4`; energy `Advanced_Armor_Stand`
+  - `Item_Roaster` / processing `Roaster` (replaces `Item_Smoker_T4` / `Smoker_T4`)
+- QoL overlays unchanged (Pete, BLOOM OE, bees, glass, Workshop Repair Kit, stacks/craft/gather, oil 4×, etc.)
+- Docs: `docs/LAPTOP_SYNC.md` rewritten as full handoff for Perryville (build steps, current version, backlog)
+- LKG refreshed (`backup/qol_KNOWN_GOOD_latest.zip`)
+
+Game patch notes (no QoL balance change required): Tier 4 powered Advanced Armor Stand (repairs stored armor ~1 durability / 2s when powered); workshop animal corpse/skin variation fixes. Next week: Hydrazine-Powered Dehumidifier (Workshop). Coming: Icarus 5-year anniversary.
+
+---
+
 ## [2.7.0] — 2026-11-14
 
 ### Loadout — Week 258 schema rebuild

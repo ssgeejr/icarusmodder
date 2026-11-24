@@ -1,4 +1,12 @@
-# Perryville laptop session — 2026-09-05
+# Perryville laptop session notes
+
+> **Current sync instructions:** use **`docs/LAPTOP_SYNC.md`** (updated **2026-11-24** for **v2.8.0** / Week **259**).  
+> After `git pull`, tell Grok: **update to latest changes**.  
+> This file is a **historical** session log (Sep 2025 Week 248 rebuild). Do not treat the numbers below as the live loadout.
+
+---
+
+## Historical: Perryville session — 2026-09-05
 
 Travel machine (Dynabook PORTEGE X40-J). Not the home gaming box. Home live pack, `_tools`, and `backup/qol_KNOWN_GOOD_latest.zip` were not on this laptop. Work was rebuilt from **README / CHANGELOG (v1.20.0)** plus current-week community sources, then installed as **one** `grok.qualityoflife_P.pak`.
 
