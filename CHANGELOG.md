@@ -6,6 +6,26 @@ The playable pak is **not** stored in git (see `.gitignore`). Builds live under 
 
 ---
 
+## [2.9.0] — 2026-11-27
+
+### Loadout — Week 260 schema rebuild (laptop)
+
+- Rebased on game `data.pak` **27 Nov 2026** (Week **260** / Steam buildid **26861028** / changelog **V3.0.38.160489**)
+- Fresh extract `_tools/data_extract_w260` (303 JSON, new `AI/D_CaveCreatureConfig.json`) promoted to `data_extract_latest`
+- Laptop live pak was still the **25 Sep 2026** file (v1.23.2). This rebuild reapplies the full documented loadout on Week 260 vanilla. Pete rows only; obsolete vanilla names from the old Pete table (Smoker, Cobalt, Electric Motor, and similar) were not copied back
+- Vanilla Week 260 rows kept: **Workshop Hydrazine Dehumidifier** (no extra QoL — Workshop Ren item, not a craft gate), **Fish Paste Lure** recipe, **Roaster**, **Armor Stand T4**, Heavy Glass / Chain Link stability left vanilla
+- QoL balance unchanged from v2.8.0 (Pete, stacks/craft/gather, BLOOM OE, bees, glass, buildings, oil 4×, décor 163 @ Carpentry, scanner 10×)
+- Textile and Larkwell craft counts were not in git (`rebuild.py` is local to the home PC). This pak uses:
+  - Electric Textiles Bench: **8 Steel Ingot, 6 Composites, 4 Electronics, 4 Epoxy, 8 Aluminium Screw, 2 Carbon Fiber** for Patcher II, Protection Module, Explorer Backpack, Culinex Backpack, Inaris "Reaper" Sickle
+  - Manufacturer Larkwell tank: **1 Oxygen Tank, 10 Composites, 8 Electronics, 6 Titanium Ingot, 4 Carbon Fiber, 8 Steel Screw**
+- Backup: `backup/qol_before_20261127_162506.zip`
+- Installed on the laptop at `C:\Program Files (x86)\Steam\steamapps\common\Icarus\...`
+- LKG not refreshed — in-game smoke still open (teleport → stacks → craft → gather)
+
+Game patch notes (no extra QoL balance change): Hydrazine Dehumidifier (Workshop, caveworm / cavesickness / counts as a fire); Nailgun repair/upgrade fix; deploy-item duplication fix; Fish Paste Lure alteration unlocked. Next week: 5th anniversary, Mammoth phenotypes and breeding.
+
+---
+
 ## [2.8.0] — 2026-11-24
 
 ### Loadout — Week 259 schema rebuild + laptop handoff refresh

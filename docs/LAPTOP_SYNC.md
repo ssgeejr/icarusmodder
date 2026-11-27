@@ -18,7 +18,7 @@ That means: read this file + `README.md` + `CHANGELOG.md` + `AGENTS.md`, match t
 | Features / numbers | `README.md` + `CHANGELOG.md` |
 | Content on a machine | That machine’s live pak (evolve it; never restack old multi-paks) |
 | Process | `AGENTS.md` — Pete first, one `_P.pak`, backups under `backup/`, smoke after install |
-| Current version | **v2.8.0** (Week **259** schema) |
+| Current version | **v2.9.0** (Week **260** schema) |
 
 ---
 
@@ -34,9 +34,11 @@ That means: read this file + `README.md` + `CHANGELOG.md` + `AGENTS.md`, match t
 
 ---
 
-## Current documented state (v2.8.0) — what the pak must contain
+## Current documented state (v2.9.0) — what the pak must contain
 
-**Game schema:** Week **259** / Steam buildid **26636089** / `data.pak` ~**20 Nov 2026** / game **v3.0.37.160033**
+**Game schema:** Week **260** / Steam buildid **26861028** / `data.pak` **27 Nov 2026** / changelog **V3.0.38.160489**
+
+Laptop install is `C:\Program Files (x86)\Steam\steamapps\common\Icarus` (there is no `D:\SteamLibrary` copy on this machine).
 
 ### Must-keep QoL (do not drop on rebuild)
 
@@ -52,6 +54,7 @@ That means: read this file + `README.md` + `CHANGELOG.md` + `AGENTS.md`, match t
 - XP **×2.5**; farm growth **÷6**; Ice Box spoil **-2500**; Fridge **-5000**; Deep Freeze **50** slots
 - Cool buildings **400k** HP + BuildingTier **8**; Reinforced Glass = Concrete (**4000** / tier **8**)
 - Décor DLC **163** recipes @ Carpentry only; Gustav / textiles / Larkwell O2 / Workshop Repair Kit Grok crafts
+- Week 260 vanilla rows kept and **not** buffed: Workshop Hydrazine Dehumidifier, Fish Paste Lure. Heavy Glass and Chain Link stability stay vanilla
 - Scanner BP **10×** range (`assets/scanner_range/`); Adv Deep Ore Scanner craft
 - Olympus/Elysium cave ores (U/Li/Ruby/Clay); Fireplace stick→**100** charcoal; Windmill queue **10**; wood→sap **×5**
 - Stasis bag FocusLock strip; water-wheel no junk
@@ -65,16 +68,18 @@ That means: read this file + `README.md` + `CHANGELOG.md` + `AGENTS.md`, match t
 | `Item_Armour_Stand_T4` | Itemable | Display/talent link |
 | `Advanced_Armor_Stand` | Energy (+ Resource) | AutoActivate repair path (~1 durability / 2s when powered) |
 | `Item_Roaster` / `Roaster` | Itemable / Processing / Deployable | **Replaces** `Item_Smoker_T4` / `Smoker_T4` — do not keep smoker names |
+| `Workshop_Dehumidifier` | Items / Generator / Workshop | Week 260. Leave rates vanilla |
+| `Fish_Paste_Lure` | Recipes / Alterations | Week 260 unlock. Do not ship a stale alterations table over it |
 
 Also keep prior catch-up rows: `Workshop_Lantern`, `Item_Captured_Juvenile_Bear`, `Item_NPC_Rancher`, `Item_Fertility_Serum_Mammoth_Arctic`, W255 turret/curry, W256 Alteration Durable **750/1500**, etc.
 
-**QoL balance was not changed in v2.8.0** — schema rebase only.
+**QoL balance was not changed in v2.9.0** — schema rebase plus a full reapply on the laptop, which was still on the 25 Sep 2026 pak. Textile / Larkwell input counts are recorded in CHANGELOG 2.9.0.
 
 ---
 
 ## After `git pull` checklist for Grok
 
-1. `git status` / `git log -5` — confirm **v2.8.0** (or newer) in CHANGELOG.
+1. `git status` / `git log -5` — confirm **v2.9.0** (or newer) in CHANGELOG.
 2. Check this PC’s Steam `buildid` + `data.pak` date vs README Week/buildid.
 3. Locate live `grok.qualityoflife_P.pak`; confirm Icarus is **not** running.
 4. Backup → `backup/qol_before_<stamp>.zip`.
@@ -103,13 +108,12 @@ UnrealPak.exe <pak> -Extract <outdir>
 
 Prefer first-30-minutes session friction. Avoid BP-locked bee breed times, combat damage buffs, or another 10× on already-10× systems.
 
-1. **Hydrazine dehumidifier** (Week 260 preview) — fold into schema when it ships; optional QoL only if vanilla is gated awkwardly.
-2. **Plain Glass → concrete-class toughness** (Reinforced Glass already done).
-3. **Bigger logistics storage** / chest tetris relief.
-4. **Benches / storage / drills / refiners / troughs** as tough as cool buildings.
-5. **Tool / weapon wear** reduction.
-6. **Pet Companions unlock @ Carpentry only** (no mission recipes) — FeatureLevel `PenPals` / bear track is in vanilla now; don’t fight it.
-7. Processor craft speed polish (honorable mention).
+1. **Plain Glass → concrete-class toughness** (Reinforced Glass already done). Hydrazine dehumidifier shipped in Week 260 and stays vanilla.
+2. **Bigger logistics storage** / chest tetris relief.
+3. **Benches / storage / drills / refiners / troughs** as tough as cool buildings.
+4. **Tool / weapon wear** reduction.
+5. **Pet Companions unlock @ Carpentry only** (no mission recipes) — FeatureLevel `PenPals` / bear track is in vanilla now; don’t fight it.
+6. Processor craft speed polish (honorable mention).
 
 Do **not** chase: bee breed interval (BP_Beehive), sprinkler radius (BP-locked), restacking old multi-paks, IMM.
 
